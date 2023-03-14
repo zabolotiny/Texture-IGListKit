@@ -93,6 +93,26 @@
       }
     },
     {
+      "name": "IGListKit+PinRemote-full",
+      "dependencies": {
+        "IGListKit": [
+          "~> 4.0"
+        ],
+        "IGListDiffKit": [
+          "~> 4.0"
+        ],
+        "PINRemoteImage": [
+
+        ],
+        "PINRemoteImage/PINCache": [
+
+        ],
+        "Texture/Core": [
+
+        ]
+      }
+    },
+    {
       "name": "IGListKit",
       "dependencies": {
         "IGListKit": [

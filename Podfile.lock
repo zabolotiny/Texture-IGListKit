@@ -10,23 +10,23 @@ PODS:
   - PINCache/Core (3.0.3):
     - PINOperation (~> 1.2.1)
   - PINOperation (1.2.2)
+  - PINRemoteImage (3.0.3):
+    - PINRemoteImage/PINCache (= 3.0.3)
   - PINRemoteImage/Core (3.0.3):
     - PINOperation
-  - PINRemoteImage/iOS (3.0.3):
-    - PINRemoteImage/Core
   - PINRemoteImage/PINCache (3.0.3):
     - PINCache (~> 3.0.3)
     - PINRemoteImage/Core
   - Texture/Core (3.1.0)
-  - "Texture/IGListKit+PinRemote (3.1.0)":
+  - "Texture/IGListKit+PinRemote-full (3.1.0)":
     - IGListDiffKit (~> 4.0)
     - IGListKit (~> 4.0)
-    - PINRemoteImage/iOS
+    - PINRemoteImage
     - PINRemoteImage/PINCache
     - Texture/Core
 
 DEPENDENCIES:
-  - "Texture/IGListKit+PinRemote (from `https://github.com/Zabolotiny/Texture.git`, branch `releases/p11.9`)"
+  - "Texture/IGListKit+PinRemote-full (from `https://github.com/Zabolotiny/Texture.git`, branch `releases/p11.9`)"
 
 SPEC REPOS:
   trunk:
@@ -43,7 +43,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   Texture:
-    :commit: 97a33ca06ef8a3f2bfde79ea18311751fa9629ff
+    :commit: c45465e86278aef5e49c6a6d7ab6c915a4b93872
     :git: https://github.com/Zabolotiny/Texture.git
 
 SPEC CHECKSUMS:
@@ -52,8 +52,8 @@ SPEC CHECKSUMS:
   PINCache: 7a8fc1a691173d21dbddbf86cd515de6efa55086
   PINOperation: daa34d4aa1d8449089be7d405b9d974abc4724c6
   PINRemoteImage: f1295b29f8c5e640e25335a1b2bd9d805171bd01
-  Texture: c7390bc5527f860fe70658e1fd13ff30c61b9ec8
+  Texture: a20c31fc2eca71450071f338183582b1f38c4d88
 
-PODFILE CHECKSUM: 75507faebcf56a81d2d1590123e9515bb9419d31
+PODFILE CHECKSUM: f358eee7aa87996991c0026814f923fff3a4209c
 
 COCOAPODS: 1.11.3

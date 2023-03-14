@@ -1,6 +1,0 @@
-framework module Texture_IGListKit {
-  umbrella header "Texture_IGListKit.h"
-
-  export *
-  module * { export * }
-}

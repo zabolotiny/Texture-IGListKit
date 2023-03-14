@@ -10,51 +10,52 @@
 		0052866F22FC243E2A20CC326BFF3F58 /* IGListSectionMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D74431AA6EF473ACCDA2A48261C86A8 /* IGListSectionMap.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		005ACC736DBFE367ED7AC9544FECB732 /* ASStackLayoutSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = 85B77E1D100A2DE69C977012406261DB /* ASStackLayoutSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		008AC91A16C948BF2F71FC2D4F1C5CE3 /* ASObjectDescriptionHelpers.mm in Sources */ = {isa = PBXBuildFile; fileRef = 324913134FFA8A5AD25B5DFAA09E2502 /* ASObjectDescriptionHelpers.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
-		00A2DDA343FC2EF112B12B4700FCC018 /* PINAlternateRepresentationProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8F53FC9AFC558080A71282EF4295E /* PINAlternateRepresentationProvider.m */; };
 		017FE38FF3607E56CABEF7C6F2D6D141 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B1295C1F56AFEC16278E0EE3AE38BA2 /* UIKit.framework */; };
 		01E43E6FBF7B66DF18A485CB4EB96F00 /* ASSectionContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 2149CB452677C99707AEAA0492FA48F6 /* ASSectionContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		02AF397365C7CB3B1F57028188D0B68F /* PINDisplayLink.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A237BFC35C4F843BD04FEDB9CD2046B /* PINDisplayLink.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		02FE2CF250A25007FD38EA6B9B341AF3 /* PINURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FBBDB0568AC123DC9D42505E32C08C7E /* PINURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0227B3115578DB20B88194E3252B4C01 /* PINRemoteImageCallbacks.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6793DEFE323E2C92B473BEF53DB1A7 /* PINRemoteImageCallbacks.m */; };
 		030D0C0AE3CEB9048E7889E18FD5E499 /* ASTextLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 54A10B6A0F50744AE11DD886E7348FB3 /* ASTextLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		03596E31265B0BD67663A468EC4DC960 /* PINCacheMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 04F1C75A3E5B3FE719ED36DABC298BEE /* PINCacheMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0384E0A3F594A406C0BF022E78F759A9 /* NSIndexSet+ASHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = B99A6C726DF89F3CA0CAEAB213DD1C8A /* NSIndexSet+ASHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		03B8013D840EE197CE798AAAA2FBC01B /* _ASCoreAnimationExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = 43F8D02A8E5EF64B15612D507A09FE6D /* _ASCoreAnimationExtras.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
+		042C173285588E227A2CDC2485EBF733 /* NSData+ImageDetectors.m in Sources */ = {isa = PBXBuildFile; fileRef = D249556124BA467501C7876B447BE841 /* NSData+ImageDetectors.m */; };
 		04A1D9084FA40576B2CFE18A788ED40B /* AsyncDisplayKit+Debug.h in Headers */ = {isa = PBXBuildFile; fileRef = 14A63BE36AF5318A6040C6E878F1C3F4 /* AsyncDisplayKit+Debug.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04E2582EB3AE571F2A18A203E12B042A /* _ASHierarchyChangeSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 196C9D2A700FA421B61A0B754323F8B5 /* _ASHierarchyChangeSet.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		050E4FB2F176770CB5C1B1360ACE7122 /* ASLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 4290165E2630E815F46FA614A9E5F580 /* ASLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		05DF336E6DB67BB0621CCF0C9463ED4A /* IGListCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3638533E46886D855C2AD8DA0DE198F2 /* IGListCollectionView.m */; };
 		05FA5512430ED47AF23A66C7E0DA7374 /* ASCollectionNode.mm in Sources */ = {isa = PBXBuildFile; fileRef = B05304DA1D1021EDAA0E73305321C181 /* ASCollectionNode.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		067D945FA228611484C736C9A8209A99 /* ASStackUnpositionedLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE9BCF104D595747ECA63DD2FBD822D /* ASStackUnpositionedLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		07D1A6F75DA3DBFEF38E8EFD9CDE2294 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA36745B91BADB30F2928C876E58F12 /* ImageIO.framework */; };
 		07ED65FC8B25E7420799D68D2CC59E7D /* IGListAdapterUpdateListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F792100E541F439A8D84662BF8B0BC6 /* IGListAdapterUpdateListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07ED949A49391A83AA0F736B127DBC18 /* PINRemoteWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1144C92BDD07C968F078A3800454078 /* PINRemoteWeakProxy.m */; };
 		086A3A41341FD1E67E64FFB61EC161BE /* ASMutableAttributedStringBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 200F884CE619D491FC9660B3478C9642 /* ASMutableAttributedStringBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0894C641685DB209C592EB3921644B5F /* PINRemoteImageCaching.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EB018B93C0B185F84A30958EA325079 /* PINRemoteImageCaching.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		096F6FD25C219009834DDE04929EB70A /* ASInsetLayoutSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = EDB2949CEEC78AAC1743136B98A717C5 /* ASInsetLayoutSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0A3F29D76776E4FF03D221C76B89A61F /* ASCollectionViewLayoutFacilitatorProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 34F073E907CE5E61CE98B831BB42C866 /* ASCollectionViewLayoutFacilitatorProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0A40E226ED12CDEABF35F0ECD9A31714 /* ASTableNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 48BA76B4CAA10B73D6FA31EFC619CC25 /* ASTableNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0A7E934870EA5DCF5841CA05BDF3F118 /* ASDKNavigationController.mm in Sources */ = {isa = PBXBuildFile; fileRef = F6F32E36E822BB6B2027114F09EDE334 /* ASDKNavigationController.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		0A91DA01C0DE919CBE4F5E7E330F8D03 /* AsyncDisplayKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 85469E9B4CD90440661A63D4BB945AD7 /* AsyncDisplayKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0A9322E5240F933B6A3D4592D0E9A358 /* PINRemoteImageManagerConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0BCBFDF34504BB7AB0521B7BC1A8A9 /* PINRemoteImageManagerConfiguration.m */; };
 		0ABF3498CC7F1EB2B3B3EA0648268D58 /* NSNumber+IGListDiffable.h in Headers */ = {isa = PBXBuildFile; fileRef = D92BE2CE2551D3FFF47BF83704A43145 /* NSNumber+IGListDiffable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0B2EE172D6EC84854FD942C1E1367BB3 /* ASTabBarController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 35A27D80B7B57D2635FCE95BC36D7272 /* ASTabBarController.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		0B5893ABAF3F5EB6896FF6748BA24B9D /* IGListMoveIndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 9757E4145DA75630753F002C67F92874 /* IGListMoveIndexPath.m */; };
 		0B7AD8F6E4E1B2FF88F24481569A8499 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04099617DC1F8D4E3E509C4515428674 /* Foundation.framework */; };
 		0B9C68967C4FC4BFDACB3DEBC4D5B892 /* ASObjectDescriptionHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 061964A861F3556784631ED943686B8E /* ASObjectDescriptionHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0BB02CAD1713E4A5FA08C8E2B76D74EE /* PINImage+DecodedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3C363F4B8547ACB8B09FE60C1D2DCD /* PINImage+DecodedImage.m */; };
 		0BC00DD25D3C4FF42C37433E81CA6F77 /* IGListCollectionViewLayout.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7AE22CAD23223C8547385F244BD04CB0 /* IGListCollectionViewLayout.mm */; };
 		0C5AD6C37D168B6D4CEC37F24AEFEF9C /* UICollectionView+IGListBatchUpdateData.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C29C4B04EEA220AD578E98C32E28D00 /* UICollectionView+IGListBatchUpdateData.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		0C5C1FCD4460D91B069B29E4E4267EBF /* UICollectionView+IGListBatchUpdateData.m in Sources */ = {isa = PBXBuildFile; fileRef = 398ADD72AEDCB826B4C87CA7E348C3DE /* UICollectionView+IGListBatchUpdateData.m */; };
+		0C68FD9DEFB2BD3ECEC6C08581C98E7D /* PINProgressiveImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 387A9E772F1193C9F19D5ABD78FF53B5 /* PINProgressiveImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0C8EB918993B5AC0B9A1BCA80F04F86C /* UIImage+ASConvenience.mm in Sources */ = {isa = PBXBuildFile; fileRef = F14DE9F13219307A59D2C150561B7D15 /* UIImage+ASConvenience.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
+		0CA775394E2E5F68A98DB491A8D1F96C /* PINGIFAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FC858FE70E19D8B5376FE24F8C4C2B /* PINGIFAnimatedImage.m */; };
 		0CFD8E5542E0804B92A255670C94AB24 /* IGListDisplayDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = CCF4074F9812181AC186AE77B7CDE5BC /* IGListDisplayDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0D293ABB2BD3C45D748001FF3929AD4B /* IGListCollectionViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = A3E7C721A1A8EA06BFFA7A099A2C633B /* IGListCollectionViewLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0D577E75A7C0F35E229C2FF4E86E7AA2 /* ASRangeControllerUpdateRangeProtocol+Beta.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F0B06975E84178938B71B14B9702C9A /* ASRangeControllerUpdateRangeProtocol+Beta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0E05B22FB9BF80F758C536A79DFBF4FC /* _ASDisplayView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 39E3FCA1591D2A9C1AB2EC9CB497ECC5 /* _ASDisplayView.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		0EB778A64EA5F235A387A5ED8EB9FABB /* ASBackgroundLayoutSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = ADABA9C671BB29FEBEA9AEF286872BBD /* ASBackgroundLayoutSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0F5917AD10A711063665DBD753942CAA /* ASTipsWindow.mm in Sources */ = {isa = PBXBuildFile; fileRef = 01526E97C476811771C587D02E4E477D /* ASTipsWindow.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
-		0F6CBF54EF02296066EE92C08157BE57 /* PINRemoteImageBasicCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BAF1A7E15E92295F5F8B86B2BB61D71 /* PINRemoteImageBasicCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0F9B2F409EF8A5AADE05FC337C4F4B20 /* IGListMoveIndexPath.h in Headers */ = {isa = PBXBuildFile; fileRef = BF9D5F5AC17B30DEDD8429D6627EAC13 /* IGListMoveIndexPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0FE505FA08EFA9B4E80B914B5874C261 /* ASTipsWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = DD21A0B17424FDBB4ADC9547A0FE51E5 /* ASTipsWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1184805FCC323CD125605798C4D67062 /* ASLayout.mm in Sources */ = {isa = PBXBuildFile; fileRef = FA41B5CB492A067C9EC64CB2B67FCE8A /* ASLayout.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		1199F40D641095A06DC44FA62F589282 /* IGListDebuggingUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AFAA7B14E65A34CD5669A3FEAAC6757 /* IGListDebuggingUtilities.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		121029966E60E6711A6B2DFB8001DC7A /* PINRemoteImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A597BC49166D4CF4E47A79EE04335533 /* PINRemoteImageManager.m */; };
+		11BA8C461B906A55515FD2CDAC37014D /* PINImage+WebP.h in Headers */ = {isa = PBXBuildFile; fileRef = 5196EB9D2AED353375C444D468FC5F04 /* PINImage+WebP.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		12B6300A74BD8F7BFD6424D5BA4786C7 /* ASImageNode+tvOS.mm in Sources */ = {isa = PBXBuildFile; fileRef = 11067D22336D341752BF7C234AA3F7B1 /* ASImageNode+tvOS.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		12B76F608DD0CBF6FF406E14FFEEEEAE /* ASRecursiveUnfairLock.mm in Sources */ = {isa = PBXBuildFile; fileRef = D10B188C2B79CB6313C447DE27B3F02A /* ASRecursiveUnfairLock.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		1304354BB8D4CFF3A84AA53E209F3122 /* ASMainThreadDeallocation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 871043E25681BE7191AC1EF0D45C7D3C /* ASMainThreadDeallocation.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
@@ -62,17 +63,17 @@
 		1400538E9A8F447C57877FAE5761D406 /* _ASScopeTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DF810D4AAB5B44C435BED56A918D450 /* _ASScopeTimer.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		145318846A4197187343A7223A8366BF /* IGListReloadDataUpdater.h in Headers */ = {isa = PBXBuildFile; fileRef = 75F220E799F3A4DCDEAB2AF2DF1F5EB8 /* IGListReloadDataUpdater.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		147796AD3C5C3C13D4B1D0CB8F6640C9 /* ASConfigurationDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A8A9B017FA181269D574208254E52B5 /* ASConfigurationDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		153FD8A5FA694ADEEEDEA6F6FB09AA92 /* PINRemoteImageManagerConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 60DA6C3E3C64F4CB57B2F359377F69CC /* PINRemoteImageManagerConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1529D024CDB7566421B531A6372514A6 /* PINImageView+PINRemoteImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1E1C41B427231C6EDBB9549BCC3DF2 /* PINImageView+PINRemoteImage.m */; };
 		15AB2635EA026F6653143A5EA7F881A2 /* ASMultiplexImageNode.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9EB697CDD1CD280A4B50FE5800C18D34 /* ASMultiplexImageNode.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		1687415EABB01695CBDFFBB8C17030AE /* ASNodeController+Beta.mm in Sources */ = {isa = PBXBuildFile; fileRef = 71DB1FD55DC6613C6F434A8F38CE3A9A /* ASNodeController+Beta.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		1816B81C5367885CA18EEB862DA418AF /* ASCornerLayoutSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8582BD35E2F292EECD531A233182F15D /* ASCornerLayoutSpec.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		18A2260658D75DC8D124A8F836FB31FB /* PINOperationQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 483C7FA45BB660B1B55DA5AC2407B3F4 /* PINOperationQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18E263BC83E03BA048B4B13C1C948387 /* ASVideoPlayerNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 32B160AA90B74C210E536E98222B7403 /* ASVideoPlayerNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		18FB99E603EE1695A1BF2A070D8CC2D3 /* PINRemoteImageCallbacks.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6793DEFE323E2C92B473BEF53DB1A7 /* PINRemoteImageCallbacks.m */; };
 		194E2F707D9AE87266C08DDD38BAC2C5 /* UICollectionView+DebugDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 920E6B02E01A5D3FBFF5085FFA5B0849 /* UICollectionView+DebugDescription.m */; };
 		19C4C21D80DDDC4A8CF9658685366FD2 /* ASImageProtocols.h in Headers */ = {isa = PBXBuildFile; fileRef = BACA220BA03A057D4BE9549E8C160012 /* ASImageProtocols.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1A510118417546D747FA5B2DEE7D2009 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04099617DC1F8D4E3E509C4515428674 /* Foundation.framework */; };
 		1A5A9030A9AE62ED7B80CFC8075437E5 /* ASBackgroundLayoutSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 566E86ADFE7172446B94E6AA999B6AD3 /* ASBackgroundLayoutSpec.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
+		1A7539D496502C32502CACC1D2A08427 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04099617DC1F8D4E3E509C4515428674 /* Foundation.framework */; };
 		1ABB6857314040D555B4C2BB5724F662 /* ASWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 66262053E2013EC41360713AB32FACF5 /* ASWeakProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B0C90AECF0E5A3998EE9E67BBE4D53E /* ASAvailability.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BDF96864BF68F15F47740B91F467085 /* ASAvailability.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B17C9041C0794A94A39D5B31C62CEDE /* IGListDisplayHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F5641BBFF9D669F100EF4AB83142AE59 /* IGListDisplayHandler.m */; };
@@ -86,40 +87,38 @@
 		1D9B1BB75C80F3F8119C898AF84A8354 /* ASCollectionLayoutState+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 80BF3170AE970BA9498D27368A7C8C91 /* ASCollectionLayoutState+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1DCFDFAABA937919009D6DD6FC6D92E8 /* ASLayoutElement.mm in Sources */ = {isa = PBXBuildFile; fileRef = 99C01B65F596429908526758AB53D505 /* ASLayoutElement.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		1E1AA0BFD3B8889C38F72AC94D23C2B3 /* ASTextKitEntityAttribute.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1A17CC3D221292B24EBE9FB8F9DD990C /* ASTextKitEntityAttribute.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
+		1E706DFA1E016CEB51351C268E9ED27B /* PINImage+ScaledImage.h in Headers */ = {isa = PBXBuildFile; fileRef = A5B9BD05FDA3405B59CB38A987CFF6A5 /* PINImage+ScaledImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1EBCB5C8BF1A73240C602A35B5DACABB /* ASStackPositionedLayout.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8ABDC2F7772919C4EC7722E421444C80 /* ASStackPositionedLayout.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		1F1D6A70B5B68ACF1002942BE240E221 /* ASPINRemoteImageDownloader.mm in Sources */ = {isa = PBXBuildFile; fileRef = BC9775D1C9AA8535696C77BDCBFC106B /* ASPINRemoteImageDownloader.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		1F965C246DAF0C7D61C86BB0E2B1D5AB /* ASTipsController.h in Headers */ = {isa = PBXBuildFile; fileRef = BD8C428DB9BB84860C2C3E66B4E517A6 /* ASTipsController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1FACCA426E7E51420706CA019DED84BD /* ASRecursiveUnfairLock.h in Headers */ = {isa = PBXBuildFile; fileRef = E33A00769C6138CD0EEF3CAC96437B82 /* ASRecursiveUnfairLock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FAEF6CFC72859D10E563AAF5B7E4285 /* PINRemoteImageBasicCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E442D4744B70769DE1E46028263DB5 /* PINRemoteImageBasicCache.m */; };
+		2014216265718C3EE96AF8DFE86E5CDD /* PINRemoteImageProcessorTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F14B29719AE043DC911EBA20751B39 /* PINRemoteImageProcessorTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2131228AA073D61E763955180A429783 /* ASEqualityHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = FD6464A0A9BC761A26DA38D83C26CF6A /* ASEqualityHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		21CA4E6C59E47AC8B4E708953A0E51F4 /* ASLayoutTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = B4ABC3F57ACA9B5B5F036EC5F0C0AF75 /* ASLayoutTransition.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		21DCBBD78D526AB9297D3707AFC77623 /* PINRemoteImageManager+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = FC087F7307636639F7C05D354BD033CF /* PINRemoteImageManager+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		21FBFB72534277246F629CC90F3D7F29 /* PINRemoteImageDownloadQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 11B27E76FA2854D2684B582FD691505F /* PINRemoteImageDownloadQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		222F986453643DB4C5794CE180ECE4F5 /* NSAttributedString+ASText.mm in Sources */ = {isa = PBXBuildFile; fileRef = FD165DDD03BBB880C7D6A6D28CBE063A /* NSAttributedString+ASText.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		226D345B20D835E1C6D10FDA049534D8 /* ASCollectionLayoutCache.mm in Sources */ = {isa = PBXBuildFile; fileRef = EA00FA05A2E3329A162FC495A614553D /* ASCollectionLayoutCache.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		22849370303F965BF9161A16CB9A956E /* ASBasicImageDownloaderInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 089FF0E166F294D41EA4DCBEE7B4520E /* ASBasicImageDownloaderInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		22C2045F3F4D064A7C2AB68ACDAE3378 /* ASLayoutElementExtensibility.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A299EA3B706A578273DC64D77EC0C0A /* ASLayoutElementExtensibility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22F3B820BC99A58EB9905D47D0FF3993 /* PINCachedAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C4CD7C113120D6B6C78E70662CC8EF /* PINCachedAnimatedImage.m */; };
 		234F7913A0D841DA8E88C863D2886A26 /* ASTextKitFontSizeAdjuster.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4CCB933699838BB8A7B04A17EDA76DE5 /* ASTextKitFontSizeAdjuster.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		2391E0208ED0547B06C483313266382F /* ASLayoutManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 02396755772D9F852DFBBF461BED11F7 /* ASLayoutManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		239A88DA3020F4FEA81F0582A258A08F /* ASTextKitAttributes.mm in Sources */ = {isa = PBXBuildFile; fileRef = B294527C0A9AC20A7143B119879D83E3 /* ASTextKitAttributes.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		241047A349266AD48EAE6BDE5F773A75 /* ASBlockTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = E4B3ABF13D1D56725DD818643DC7F566 /* ASBlockTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2412D4ACF526125BC89031C6BA0EDEB4 /* PINRequestRetryStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = C7A89B39501A5C0B5A51D1DCFE1EB1B6 /* PINRequestRetryStrategy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		247E56FF8D9DF6549843D24F631749D1 /* PINImage+WebP.h in Headers */ = {isa = PBXBuildFile; fileRef = 5196EB9D2AED353375C444D468FC5F04 /* PINImage+WebP.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		248A5D0758579F45393A48F7F1A816EE /* IGListAdapterDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 64F88B6C712D1E53F2202864E457658E /* IGListAdapterDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2515ECB5964A42BC910B550E626BF9BD /* ASCellNode.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5F21408B56691F80CC5659DCFBB1E16E /* ASCellNode.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		256BA1F1360654F69778E29BBE25B04D /* IGListSupplementaryViewSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 247F79FCA7A6F8DCDCF1124D19139690 /* IGListSupplementaryViewSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		25F0482AD0B7DB60BBFC8ABCD7839E2C /* ASTipNode.mm in Sources */ = {isa = PBXBuildFile; fileRef = E5A980FF7E89864A1067BF7CC0042F5C /* ASTipNode.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
+		2650F867C5A99E74C612E2438D28F120 /* PINRemoteImageManagerResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 3776CDA7A3D33035FD07FED622108A7D /* PINRemoteImageManagerResult.m */; };
 		2670FEA601EDCB84D77DAD79C7B50F33 /* _ASCollectionReusableView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 99121A38F2FB9B580150AE60B3A81C91 /* _ASCollectionReusableView.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		2757C80335983AFB56046AAD2DFAA6D3 /* PINMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 986B00BB5E1228EECD6F8A9ED5AAA7BB /* PINMemoryCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2761D8744704A53ED4E43A43481D06D8 /* ASImageNode+AnimatedImagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = CFFC58A2FE1C6F5F50B886A7FA3FC360 /* ASImageNode+AnimatedImagePrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2799AE72884020A40327B0F941F7E529 /* ASMapNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E3125F917751122107C1FAF9EF4BB18 /* ASMapNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28B744EA52360505E210ADFA0F8B7400 /* ASConfigurationInternal.mm in Sources */ = {isa = PBXBuildFile; fileRef = DDD7F587E1A5CF1C049A16348299F688 /* ASConfigurationInternal.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		290CE4B2273A8DD7501C883649D798F4 /* IGListAdapterUpdater+DebugDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD060F2FEB219757F20C7F9BBBA593C /* IGListAdapterUpdater+DebugDescription.m */; };
-		290EED5469B0B0E86CB6ED9DBBD088EF /* PINProgressiveImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 957E2032CAB64F624EF8E33B62B94787 /* PINProgressiveImage.m */; };
 		29A7C0BC88D85F89318C67E6293CFFB4 /* IGListBatchUpdates.h in Headers */ = {isa = PBXBuildFile; fileRef = FC19ACEBC3828584C7F38BE000BD2857 /* IGListBatchUpdates.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		29A9E81F33421D1E32648B12D20B4F68 /* UIScrollView+IGListKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D61F6F7EC412AD608068422ECD3A4DE /* UIScrollView+IGListKit.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		2A2D9741BC06256DC66C82090B40D185 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA36745B91BADB30F2928C876E58F12 /* ImageIO.framework */; };
 		2A8FDDC442442AC4F934F4973E840B66 /* ASTextKitCoreTextAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 61A0C022810757D93BABE66F90DF3D5D /* ASTextKitCoreTextAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2AA41D578774DF06B8681D32063E7172 /* PINImage+ScaledImage.h in Headers */ = {isa = PBXBuildFile; fileRef = A5B9BD05FDA3405B59CB38A987CFF6A5 /* PINImage+ScaledImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2B038A2FEBDF24E915F77955DBFF2940 /* ASDisplayNode+Beta.h in Headers */ = {isa = PBXBuildFile; fileRef = 492B5E2FDAE7F6B8E552FF04967BC48B /* ASDisplayNode+Beta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2B718E0DE8F182E0190DB7BCA667861E /* ASDisplayNode+InterfaceState.h in Headers */ = {isa = PBXBuildFile; fileRef = 70FD505CA631665669D211CE5DD04618 /* ASDisplayNode+InterfaceState.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CC0DA748DE980B561423018778509A7 /* AsyncDisplayKit+IGListKitMethods.mm in Sources */ = {isa = PBXBuildFile; fileRef = C7CF436FBC2460B31D46FB7AEAEA5B16 /* AsyncDisplayKit+IGListKitMethods.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
@@ -127,10 +126,11 @@
 		2D2A77A53A45AA03F16F2411E6F7FEB7 /* IGListBatchUpdateData.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C2BE2A6AD3C4D7950DE1FC65218EAF0 /* IGListBatchUpdateData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2D4F11BB21F21B0F1687BDA71200EB74 /* IGListIndexSetResultInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = EDAF5068629E569F13D50649ED31B31A /* IGListIndexSetResultInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		2D8E50666239A955EB71D1F01E0E5C29 /* ASExperimentalFeatures.h in Headers */ = {isa = PBXBuildFile; fileRef = 9192FF3067DE8F6826ABE43FB5A0D9A3 /* ASExperimentalFeatures.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2DDF52EE2C0AFBA1492EB418F2DBA091 /* PINRemoteImageCategoryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 749C6044787E2DEDBB7A086787411005 /* PINRemoteImageCategoryManager.m */; };
 		2E3725D35EBEF5FAD75DF34CB9714DB7 /* ASDisplayNode+Ancestry.mm in Sources */ = {isa = PBXBuildFile; fileRef = EC482C40FF8E74196D131E6540D1AE50 /* ASDisplayNode+Ancestry.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		2E78E32CC3EF26D080BE9ABB01718A32 /* ASDataController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6197DB4519A96D2285664E850B867767 /* ASDataController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2F0CA6E635295AA692FAEB9393783F4B /* IGListDebugger.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CC8DAE30B8257B07376D49FC2A3D9D /* IGListDebugger.m */; };
+		2F5FE2BEE0B42707651194161839579B /* PINURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F3070C2097171985DC33F65E2F7DE6F1 /* PINURLSessionManager.m */; };
+		2FA03925041174F71B60A35E5C715477 /* PINAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = FF70BF28E66D0781E7BDB197BEF5423F /* PINAnimatedImage.m */; };
 		2FAA8FA277804C4A65ECBF6B8D91D359 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04099617DC1F8D4E3E509C4515428674 /* Foundation.framework */; };
 		308E83336B2445452F84A4B3C55F6BDC /* NSAttributedString+ASText.h in Headers */ = {isa = PBXBuildFile; fileRef = EF2508A50A37E849F19D8788010F0C68 /* NSAttributedString+ASText.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		30DFA66F98B39FDC9226AB031446F176 /* ASTipProvider.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6C4DB13BBD654457410C68E6E5B14DE9 /* ASTipProvider.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
@@ -142,30 +142,28 @@
 		323E7337A8B661F439546DEAF8F9FEC9 /* PINCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C775B1C9D75DCC881107EBE9B99417A6 /* PINCache.m */; };
 		3271000B3D452E24532652898FB4D928 /* ASPendingStateController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CB27972FF2356392F1CA25485FC5C61 /* ASPendingStateController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		332E4B95253D6930337A0A66A26253AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04099617DC1F8D4E3E509C4515428674 /* Foundation.framework */; };
-		332E9E32EA25C369B340F2F1E9C92F45 /* PINButton+PINRemoteImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 950CD8985570EE3DB90F66B553102268 /* PINButton+PINRemoteImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		337B5D96D8E17595739753414DE050CE /* ASCollectionViewProtocols.h in Headers */ = {isa = PBXBuildFile; fileRef = E77DAABF9A8743C2F387AB4B143C8FA3 /* ASCollectionViewProtocols.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33B6C01FF4B8E20F0B957A216CAA2331 /* ASRangeController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A1F1AB8324871C7CB6902B24A7EB0E1 /* ASRangeController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34BE9A9FDE285F99920C270424302865 /* ASConfigurationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 738B01E7206CA5C1071B3456E1D9FFEC /* ASConfigurationInternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		35016C0448796414BA9BDCEE5E438BEB /* PINRemoteImageMemoryContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E07C3731B8A8C1FFC94BC2195AC7AE /* PINRemoteImageMemoryContainer.m */; };
-		3619D17F9FC08531B058FF52BE2CDF7A /* PINRemoteImageTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ECA7A9E652AB639668D743169F80F5 /* PINRemoteImageTask.m */; };
 		368A92431443FBD90FE4642234623113 /* ASCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 14544E1A710AE25C17413AEE86401AFC /* ASCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		369DCB6E7F0FD5D4711D0494E0AC3631 /* ASRatioLayoutSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3810E7D02B19C02A08492ECCB8C526DF /* ASRatioLayoutSpec.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		36EA30AE62DCB2BC7AE7EBEDCB7EBF08 /* ASDKNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C87597215DCC5B53D058616802840C4 /* ASDKNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		370D7411A13B8A233D3E40F44E15BE5C /* PINURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F3070C2097171985DC33F65E2F7DE6F1 /* PINURLSessionManager.m */; };
 		37224257385CA42CFEEB0CCAAB2FD958 /* ASStackLayoutSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4D58CCBA1315958082B9720BB87F6E89 /* ASStackLayoutSpec.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		3743B2A827E41CD469020F0BBCBFBA07 /* ASMutableElementMap.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3C3F925F8BE4B84A762202327C462F81 /* ASMutableElementMap.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		37E2C53DDA53EE7696F3C78A095A70C2 /* IGListMoveIndexPathInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1983828D07B7DF0FAAAAC0BD05C1FC5F /* IGListMoveIndexPathInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		37FFE8EE5493E2E0A02BB3BCB240C216 /* _ASAsyncTransactionContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 532313469E43A7097F8A11B38AA2185D /* _ASAsyncTransactionContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		380B24DEEEBF208161E4043EAE09C2B0 /* ASYogaUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = EB72557E320638010826044DA2558582 /* ASYogaUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		38FCCB7A11298ACC61908968CFEE73F0 /* PINCacheObjectSubscripting.h in Headers */ = {isa = PBXBuildFile; fileRef = ECA3165724FB117C530F9834E00B40E6 /* PINCacheObjectSubscripting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3921215B2895156FE19865A153B565B7 /* PINRemoteImageCategoryManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E6863DCD5FC7B4CDD48529EF100AF5EE /* PINRemoteImageCategoryManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		395296368FAD6FEE70CE19FBCE22C316 /* IGListIndexPathResultInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = E89384A4B284B33070C3144F1293E12F /* IGListIndexPathResultInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		395E0F6F55F1C0FD5D1AB6C586C75C49 /* PINOperation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C88C10429CB60D131ED44372B3C5872 /* PINOperation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3988E28D1F1200B5B32DF8C75C3C9E05 /* ASTextNodeWordKerner.h in Headers */ = {isa = PBXBuildFile; fileRef = F3307D23D6D73865A07E24516A96696C /* ASTextNodeWordKerner.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		39D6D2CAC1F3FBD153422E589CB33799 /* ASAbstractLayoutController.h in Headers */ = {isa = PBXBuildFile; fileRef = AC5C954BC8E83CF5E9172A3F4576EE85 /* ASAbstractLayoutController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3A17B57F2AB2797FF42F9273C1D5FA53 /* ASLayerBackingTipProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FB84E0AD606BAC28E7293C021C21E61 /* ASLayerBackingTipProvider.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3A7A8FA2024D01366D2F996D12EC2300 /* ASLayoutRangeType.h in Headers */ = {isa = PBXBuildFile; fileRef = 497DFE4864912DFB09A31CF162B2DB28 /* ASLayoutRangeType.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3AE955B7D903DB932626F94E543281A7 /* PINGIFAnimatedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F1F8A3DEBC33467D1C2DB75E49E21B8 /* PINGIFAnimatedImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A814D15190EF5D9F66A20C224EF0981 /* PINRemoteImageDownloadTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC07695F242F697730B8B18FE0DC4B7 /* PINRemoteImageDownloadTask.m */; };
 		3C0965EEEEA87E5314C5E7973652CFD8 /* ASLayoutSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EC7B1686E69DF3EF4BF902F91DDC415 /* ASLayoutSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C3CE5795AD88B20FB6A281AEA3B50EA /* PINDisplayLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 972FAB52B95B7450F8B04CF6558F682A /* PINDisplayLink.m */; };
 		3D3FF39A50535B3E32A9E0E41E00861B /* ASCollectionGalleryLayoutDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D042ADE9654242A99A63BB0295400BE /* ASCollectionGalleryLayoutDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3D767CEF251D577756B2E26ADA5E6F2E /* PINCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 90B9E058D71B50B24623592F7EFD12E5 /* PINCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3DCD7496125E1D14995CC682F525EDE4 /* ASControlNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 17E4C246DA84671D3B70CA1F83680075 /* ASControlNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -179,12 +177,14 @@
 		3F7CBE3E9DE7603AB5837FC196FE2312 /* PINOperationGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED4558F8CA09D36111AC1AB6757527C /* PINOperationGroup.m */; };
 		3FB8B1C4AA0E3E6F4017167DF6D37D93 /* ASBatchContext.mm in Sources */ = {isa = PBXBuildFile; fileRef = 30410B5A48207B29F054A1CD76E41438 /* ASBatchContext.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		3FBB4567DACF1C1AB956D7FF3FFC8934 /* _ASCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AFF1632D4AA186D5B98BE71845EA59F4 /* _ASCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4005C34383D0855FE274972B5AA316CA /* PINGIFAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FC858FE70E19D8B5376FE24F8C4C2B /* PINGIFAnimatedImage.m */; };
 		40323152F22D9A265E1276088BBBE734 /* ASGraphicsContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 646C849A879B94F680C51E3F0DAADCC0 /* ASGraphicsContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		408048CB6072650D05C31757CEC015E6 /* PINRemoteImageTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ADE65B2B67227F826D162BDE612FA26 /* PINRemoteImageTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		409E0D0260FCC9132C98ADCA29007ADE /* _ASDisplayViewAccessiblity.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8280E731404D14A45A11B941CE13A525 /* _ASDisplayViewAccessiblity.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		40D9027158B619887D05039E7C1BE261 /* ASDisplayNode+DebugTiming.mm in Sources */ = {isa = PBXBuildFile; fileRef = E09267CF2C6387546E2EBB804314312E /* ASDisplayNode+DebugTiming.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		40F3D72AFAD7D37FDFAD84D21165C45F /* IGListAdapter+AsyncDisplayKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 069E1F02D2D58ABA9BC195077907F332 /* IGListAdapter+AsyncDisplayKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4149FB805E68F20BED91015E332017E7 /* PINRemoteImageManager+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = FC087F7307636639F7C05D354BD033CF /* PINRemoteImageManager+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		43476D76DEC2FAA7609AA77BBDC2D637 /* ASDisplayNode.mm in Sources */ = {isa = PBXBuildFile; fileRef = 06831B82C1977B8BDDCD7A38D72586F2 /* ASDisplayNode.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
+		43530078B4BBC6030051C352C21913A1 /* PINRemoteImageCallbacks.h in Headers */ = {isa = PBXBuildFile; fileRef = AEE66D688B11BD7A27F40ED8B1ABAA50 /* PINRemoteImageCallbacks.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		438236225A0240752478CC93E704DCD2 /* ASTextKitTruncating.h in Headers */ = {isa = PBXBuildFile; fileRef = 7572E1BBEF58401B83448DF4A6828CE2 /* ASTextKitTruncating.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		442925110AB971FC4FF7BCCC56CDA8F1 /* ASInternalHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 42C66106FB0B16542E21FCC482F7E4E3 /* ASInternalHelpers.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4443C7DBCB476F26878689B8DA9877B6 /* ASControlTargetAction.h in Headers */ = {isa = PBXBuildFile; fileRef = F81472CF29B2907B05F6EDA8C5C8E0F1 /* ASControlTargetAction.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -194,13 +194,14 @@
 		468AF80CA18FBB81B414444FC2E667FB /* UICollectionViewLayout+ASConvenience.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FDDC62B0166F22F7929399AC3C21DDA /* UICollectionViewLayout+ASConvenience.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		46936F5F632C8BFAAA15C0B745265A65 /* ASTextDebugOption.h in Headers */ = {isa = PBXBuildFile; fileRef = 05AE7E02E21481CF3FEA8BDB98ABFC7C /* ASTextDebugOption.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4735A168EFDF0E56425C926BCEF42F33 /* IGListBindingSectionControllerSelectionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 75A92F865621C3D61350327F6541CF89 /* IGListBindingSectionControllerSelectionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		477132751FF7288D6257DE717ECA1CB9 /* PINRemoteImageBasicCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E442D4744B70769DE1E46028263DB5 /* PINRemoteImageBasicCache.m */; };
 		47927FE7846B2BD7D110C88C92F1A6AD /* Pods-Texture+IGListKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B119FA16DB9068F303C0DFC2E3527618 /* Pods-Texture+IGListKit-dummy.m */; };
+		47B36526BE7710DFDEE1F7F8F31D92ED /* PINRemoteWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 609F374CF6EC75A951C88BB91AA043AE /* PINRemoteWeakProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		48090993817DDAFE78F8AE9AA9F1E93B /* PINDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EDA126D4460FA3D4D7E10A3C9794E1F /* PINDiskCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		48895E88AD76B2412D3F22434D493793 /* NSData+ImageDetectors.m in Sources */ = {isa = PBXBuildFile; fileRef = D249556124BA467501C7876B447BE841 /* NSData+ImageDetectors.m */; };
-		48E59BF2D8DCCFAA3BB8DE31311B9032 /* PINSpeedRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = FF1E36066638F780F624EADBED86F860 /* PINSpeedRecorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4836BB9F2C4C682C5919D6F60293AEC5 /* NSData+ImageDetectors.h in Headers */ = {isa = PBXBuildFile; fileRef = F55F1079F705765760EA43A569176E83 /* NSData+ImageDetectors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48BD4B03712922AB024F0E2644B79E4A /* PINSpeedRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = FED72A181D977656EE836631BC22FD93 /* PINSpeedRecorder.m */; };
 		49963AAEDC7653E75D75EBD05E7B50EF /* ASRelativeLayoutSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 27CC45C02BC91AA890E688CC8A3539A8 /* ASRelativeLayoutSpec.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		49C197EB6CDC0D21D4611C4E5D50C3E6 /* ASSection.mm in Sources */ = {isa = PBXBuildFile; fileRef = AFB5DE32567F48D03C8500E8A27DC51F /* ASSection.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
+		4AAD719B6B38E7F5F7E278E3C9594A25 /* PINRemoteImage.h in Headers */ = {isa = PBXBuildFile; fileRef = F28E78A4377BF1F353D36FFA6A8BDBB5 /* PINRemoteImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4AEF9C55F33D5D7BAD8C6A24863DB8DD /* NSArray+Diffing.mm in Sources */ = {isa = PBXBuildFile; fileRef = B8AC0D9200B96C7162BD32705C1E1D5A /* NSArray+Diffing.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		4B466F68F6B75EB916CABDA2E9BECA28 /* PINOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = B9E9D51507600837A945EDB95D53ACBB /* PINOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B59BB8B20EC46D99C65C48472C38A68 /* ASLayoutElementPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 04807B14DC3712311A1F826591A10C0A /* ASLayoutElementPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -208,20 +209,19 @@
 		4BE4B71D530052AB9DB2FD83563139BF /* ASIGListAdapterBasedDataSource.mm in Sources */ = {isa = PBXBuildFile; fileRef = D3992421537A04D41365A53552CD541D /* ASIGListAdapterBasedDataSource.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		4C1DF05BC07CBE725839B55E56E768D4 /* ASStackPositionedLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = AE11AF4A8CD52979E80C4F1CEB329686 /* ASStackPositionedLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4D420B9391902C94675F0975A81EB1E8 /* ASTextNodeTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B58C9A5706A925294796F6FFEB2B2AB /* ASTextNodeTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D527C08432C35A9D8400A4C214700C3 /* PINRemoteImageMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B0D4BA61315B6A5553A7BC7A3C87458 /* PINRemoteImageMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4E69250DFE230B7D9134B5360A91EC8D /* IGListDiffKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94D28F87CED133D24BF3A0F8055BA44C /* IGListDiffKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F498262CF8B09D4DA8CE83985A3EE05 /* ASCollectionElement.h in Headers */ = {isa = PBXBuildFile; fileRef = AF4226A8227F27810DCF4DAE611AF6AB /* ASCollectionElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50058A997025D8DF7F24874EF1BBB89C /* PINRemoteImageCategoryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 749C6044787E2DEDBB7A086787411005 /* PINRemoteImageCategoryManager.m */; };
 		5039395D20F3626356C9E0B13736DE01 /* ASWeakSet.mm in Sources */ = {isa = PBXBuildFile; fileRef = E0056BD10CA24E0361AD4DB421B96241 /* ASWeakSet.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		504FC6E2898BB2EAA2099072FBECB8B8 /* IGListAdapter+DebugDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A8952F7BE3625B52A9772372CF88F74 /* IGListAdapter+DebugDescription.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		5076060B4AC4A2BD0A29805FC97292D5 /* ASImageContainerProtocolCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = 5540E715C89F0FB6E7B1C68A52C67234 /* ASImageContainerProtocolCategories.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		516FB68902AAC08D9E587D98893EBC1B /* PINGIFAnimatedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F1F8A3DEBC33467D1C2DB75E49E21B8 /* PINGIFAnimatedImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5199455392F3F572E068737F38304CD8 /* ASDisplayNode+Convenience.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6968CEE534E198806039E9ECC0921D5B /* ASDisplayNode+Convenience.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		51C707DE43F5458D34A1A61F7D8FEB9E /* ASAssert.mm in Sources */ = {isa = PBXBuildFile; fileRef = 01C29D07192C81F6958E9696D26D1432 /* ASAssert.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
-		522D68C238ADD2E4BB0EDC6E7E789375 /* PINRemoteImageCallbacks.h in Headers */ = {isa = PBXBuildFile; fileRef = AEE66D688B11BD7A27F40ED8B1ABAA50 /* PINRemoteImageCallbacks.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		527957C12E3C30085901B7D5DF30C17D /* ASCenterLayoutSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 93D2C553342D259F07E107A6B93B20E8 /* ASCenterLayoutSpec.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		52C458017FE54C212BD828CE53B01C8C /* ASMutableElementMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 9278AACA68BD17242FACFA28376BF77B /* ASMutableElementMap.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		53526734412F401A087EC20F9A3CC7EB /* IGListMoveIndex.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C4C0080AF639C255B1E64DF2097BD8D /* IGListMoveIndex.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		53D9F5E5967BA73AB947DBE1C27A0287 /* ASCollections.mm in Sources */ = {isa = PBXBuildFile; fileRef = BBEECF005F3AB9571B92AE59E925CF0B /* ASCollections.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
-		53E0B4B9A8A2CD3D9B735CB70131E46E /* PINProgressiveImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 387A9E772F1193C9F19D5ABD78FF53B5 /* PINProgressiveImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5456CE7488C7FE316C00605531107BFD /* IGListIndexPathResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 717B4C71BD09EF1FAC8626013AE8F2C4 /* IGListIndexPathResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		54613AFCBB13206A27B50AC2DC1BC1A5 /* ASTextNodeCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 16DBEA4DC24086A39AD09AFBF9DC5139 /* ASTextNodeCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		56BA39473F30C72D403B48F1CA6F451C /* ASScrollDirection.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6B6E19C76DA2BAD32CA9868BBA1A65 /* ASScrollDirection.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -234,19 +234,18 @@
 		5A58C745D22187C9AA425B6A8CBF3AAB /* ASDimension.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B2AFB8C91C43E4E5A8565D7345A913F /* ASDimension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5A73B012ABCB9755682958D801335926 /* ASCenterLayoutSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = 66B14318BDFDC7A38072624504010CD6 /* ASCenterLayoutSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5AAFA66232A302A298D23FBD5F2435BC /* ASCollectionViewLayoutInspector.h in Headers */ = {isa = PBXBuildFile; fileRef = 581B8826231048E51CF7965D4E469BA9 /* ASCollectionViewLayoutInspector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B669388087B3678BF98DA21B087C1E3 /* PINDisplayLink.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A237BFC35C4F843BD04FEDB9CD2046B /* PINDisplayLink.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B91A17D5645DE3AE48679C5F7A567FA /* ASVisibilityProtocols.h in Headers */ = {isa = PBXBuildFile; fileRef = A3782CD49A1573F57697D6293DFABBB6 /* ASVisibilityProtocols.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C1B342A3F54657EEA7FC2105EF75523 /* IGListMoveIndexPathInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E302F28281125C2D38941DC37AF0D35 /* IGListMoveIndexPathInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		5D2C6B7CD4EBBB2884380D225C181C45 /* ASIntegerMap.mm in Sources */ = {isa = PBXBuildFile; fileRef = C9247E5788AF9D7932637FAB82687633 /* ASIntegerMap.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		5D337B67D073299898E4D6F925984C78 /* PINCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF931784F16A48F6434143E42C9E99B /* PINCache-dummy.m */; };
 		5D4A52A6D996D207191440BF18C45992 /* _ASPendingState.mm in Sources */ = {isa = PBXBuildFile; fileRef = 82BC5751663D954DE40CD407A80FBC87 /* _ASPendingState.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
-		5D5D1CF6778C0EFEF0A0378E3DB8C089 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000B87A61B1B2D64B1690E1523222DD6 /* Accelerate.framework */; };
 		5D841AA1AE8DDB9B5E709C38E78939A6 /* ASLayoutManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = DD794BE322FF242AD75AEB17AEF1BCB9 /* ASLayoutManager.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		5DEEA3BE43F4B365EFDD50DF0DF18E6F /* ASConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = F69F44AE7D93E2F2F3F177ADE31EBF18 /* ASConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5EBA64E274109B68134E970A1C831236 /* IGListCollectionScrollingTraits.h in Headers */ = {isa = PBXBuildFile; fileRef = FA723787C118F70948E8083B2E4FD339 /* IGListCollectionScrollingTraits.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5F27049B8E69DAFB179E19BD07FAB82A /* ASOverlayLayoutSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 858902EE54F3E72CE530EA991E062B97 /* ASOverlayLayoutSpec.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		60084C3566DC3381F7C58FB19C66DE9A /* ASTextDebugOption.mm in Sources */ = {isa = PBXBuildFile; fileRef = A080C0F48BA81F3D0AABE317C5EDAA88 /* ASTextDebugOption.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		608F1C5E4218CB1C3B9B5CFEB75297FD /* ASImageNode.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7AE02723474AFC3AD6BBF98C6C10936C /* ASImageNode.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
-		60F36B18D923D00F2135B9CEB72CC334 /* PINImageView+PINRemoteImage.h in Headers */ = {isa = PBXBuildFile; fileRef = AF5A5EADFCFA09B152B94EECD068AC0A /* PINImageView+PINRemoteImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		612859D92869C38BB579F465B6F851E7 /* ASStackUnpositionedLayout.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA9EA58533B2AFB139B9A3AF5F78E475 /* ASStackUnpositionedLayout.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		6160C629331DAE41DE943BB94E2615F2 /* _ASPendingState.h in Headers */ = {isa = PBXBuildFile; fileRef = A8FBF969832FA1946AAAC8A9A0165649 /* _ASPendingState.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		616ECAF7932B084E83CAD460787D18C0 /* ASCollectionGalleryLayoutDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 87C545DF5E6C1E1B96B4508776846C3E /* ASCollectionGalleryLayoutDelegate.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
@@ -261,9 +260,11 @@
 		64364186E159B0D3FC7DCE49A8FE81DC /* ASCellNode+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E3A322DA487056B653E129C9C1BCBED /* ASCellNode+Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		644547448F9AF2A90527ECC69140FA18 /* ASSectionController.h in Headers */ = {isa = PBXBuildFile; fileRef = E5180533AFF3B711629104DE818EA05D /* ASSectionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		649AE9FCA2546CFC488D569DDBC12AE5 /* ASDisplayNode+DebugTiming.h in Headers */ = {isa = PBXBuildFile; fileRef = 40E6DBC151DD55610A697A1F929248FE /* ASDisplayNode+DebugTiming.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		652FC2B00DFEC152BC2E883BAC5F8D95 /* PINRemoteImageDownloadQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 11B27E76FA2854D2684B582FD691505F /* PINRemoteImageDownloadQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		653E4F4EE5A4AE7C8E2C2BD9BE9AD111 /* IGListBindingSectionController.h in Headers */ = {isa = PBXBuildFile; fileRef = CC780E49CC7C3D2BC2ED1496DCEE3146 /* IGListBindingSectionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6551B64949CA8C5C8BA260578D735929 /* ASElementMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 46F35FE7B72D842004A37B3A010DAC13 /* ASElementMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		65F3C84D791FF9A6ECD5A65411AEF05A /* ASCollectionLayoutDefines.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6ED0CB659B0E2A91D1E04314ECE4576A /* ASCollectionLayoutDefines.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
+		665182898D3D032BEEB8DA7D2B7C807D /* PINImageView+PINRemoteImage.h in Headers */ = {isa = PBXBuildFile; fileRef = AF5A5EADFCFA09B152B94EECD068AC0A /* PINImageView+PINRemoteImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		679DBF85896B4507670B0C2394E0A3F8 /* UIView+ASConvenience.h in Headers */ = {isa = PBXBuildFile; fileRef = 28CFB2368DA2619680DCB4719D65F93C /* UIView+ASConvenience.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		67D560E42B163AC5C8F15DDDB541DA7F /* ASTipProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = F5779BCA9A0035389AC828AC736506E4 /* ASTipProvider.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		686F465E848BC6AC75DC69C1B9AAB5BA /* ASTextKitRenderer+Positioning.h in Headers */ = {isa = PBXBuildFile; fileRef = C5B56891F3B1E9CE20C7D3B9E8D85D87 /* ASTextKitRenderer+Positioning.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -273,8 +274,9 @@
 		6A09A34833F3FEA834C8586FC9C1D896 /* ASCollectionViewLayoutInspector.mm in Sources */ = {isa = PBXBuildFile; fileRef = F62ECF9C8C1CBB196B948C4A5F3D5DEC /* ASCollectionViewLayoutInspector.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		6A3B187375746C0888E5CFCDD868FCCB /* IGListMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 2243B67B067B6F83BD5D1777D4A71444 /* IGListMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6A4CF3EF139AF6197136DD9C5F67987C /* ASRatioLayoutSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = C4E2A45D6091C3A3D436A6A03F3FC4F1 /* ASRatioLayoutSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B6F1803B9F164BE9E306B457C9CF53C /* NSHTTPURLResponse+MaxAge.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CA4359BA9312B3D70B1750AA03436D8 /* NSHTTPURLResponse+MaxAge.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6C5C7384631C33E8AE8E0647EB6C7E2E /* ASCollectionLayoutContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 72E59EC78E517F8A31E320D96BABC213 /* ASCollectionLayoutContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6C99CB0546A67C92946A261F3FA77C4C /* PINRemoteImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25DC7BF6E2EFEAA4280E3739973340A6 /* PINRemoteImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C9972A016E466E55A53168E4C9548C4 /* PINSpeedRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = FF1E36066638F780F624EADBED86F860 /* PINSpeedRecorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6CA72B86AEB9A3C566C855D36750D5B6 /* ASDisplayNode+Yoga.mm in Sources */ = {isa = PBXBuildFile; fileRef = CC93540B25B2A954F7C3788A0309C132 /* ASDisplayNode+Yoga.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		6D3253DE7778CCCB009EFB375AA84800 /* UIScrollView+IGListKit.m in Sources */ = {isa = PBXBuildFile; fileRef = EB751D48D45D5ADB8B244ACF1C795DC1 /* UIScrollView+IGListKit.m */; };
 		6DF178C364B5E0F00654E183E72FFE82 /* ASSection.h in Headers */ = {isa = PBXBuildFile; fileRef = F1DF516E9BB40419D1D20E70A90547BB /* ASSection.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -283,21 +285,25 @@
 		6E3E76E4A7F77A3973EE6449CE275137 /* UICollectionViewLayout+InteractiveReordering.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F5A3D133B81EB4F4760D482FFDFE913 /* UICollectionViewLayout+InteractiveReordering.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		6E45AF66C67D16A2B9B65E0B05266419 /* ASLocking.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C8A50F6AAC84EFFED1431FFAD065DDA /* ASLocking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6F30A47AA3D39792AE8C4DF331AEAD6F /* ASYogaUtilities.mm in Sources */ = {isa = PBXBuildFile; fileRef = 052EBE40574B4DD14C2CEA2EF4C239DC /* ASYogaUtilities.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
-		700C49D07EF1C60F65B831675469A34F /* PINCache+PINRemoteImageCaching.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A7C884DA48AA3C06082FE354A6AB65 /* PINCache+PINRemoteImageCaching.m */; };
+		6FEC63C12307F7D8031B14B0959E52FF /* PINRemoteImageMemoryContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E07C3731B8A8C1FFC94BC2195AC7AE /* PINRemoteImageMemoryContainer.m */; };
+		7020BC510F7317943101F7F17D4D2EBE /* PINURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FBBDB0568AC123DC9D42505E32C08C7E /* PINURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		70551D64679BF20B874DCBCED30655E5 /* ASBaseDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 84A64E774832C65DA32C289279C5A55F /* ASBaseDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		70E33A3E164EC877994F8401194294D3 /* ASPagerFlowLayout.mm in Sources */ = {isa = PBXBuildFile; fileRef = 85D6E4C1428EC6847EEE9D83924BF3F4 /* ASPagerFlowLayout.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		7125D852412BDC8A13E2DC8AA667D589 /* ASAssert.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AAB614D9859144B06B7115CCE4F73EF /* ASAssert.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		712604ED103AE5DE99988C8C67C6677A /* ASStackLayoutElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C12453BA2E7DB659B617A7B8EF8E77F /* ASStackLayoutElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7135E10F50CC2AC0919DF5901BD9D83E /* PINButton+PINRemoteImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 950CD8985570EE3DB90F66B553102268 /* PINButton+PINRemoteImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		716DEBC54F0F166333ED7029065D7312 /* ASCollectionLayoutState.mm in Sources */ = {isa = PBXBuildFile; fileRef = C130D0750A179066021C593D22AA3281 /* ASCollectionLayoutState.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		718750CDC1E4A2CE4F332DE78887243E /* ASResponderChainEnumerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B2EABA4AAC78E8EC3839F3F95E4E837 /* ASResponderChainEnumerator.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		723486FC78F27983109AB94F64D0F130 /* ASCollectionLayoutContext+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D20BCB3D788AA5E5DAC45AA2CD48648 /* ASCollectionLayoutContext+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		72E94942CCAA3530E1D8433310420CB6 /* PINRemoteImageTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ECA7A9E652AB639668D743169F80F5 /* PINRemoteImageTask.m */; };
+		73406671C1FA70DFE90F90651B8D65FC /* PINCache+PINRemoteImageCaching.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DFC368E82761583C484E042377D3B5E /* PINCache+PINRemoteImageCaching.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73448A3812B760B85DD6B64B85B49165 /* IGListTransitionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A23B5089712AA67760BE7DD4D2EA0DF /* IGListTransitionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		736C5AB4FF795FA366B097D84E0D9727 /* ASBatchContext.h in Headers */ = {isa = PBXBuildFile; fileRef = EF19A86055709EFCA5363D76FECAABAF /* ASBatchContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73BC2BAEAFC76A79BF2A6E23CA54044F /* IGListCollectionViewLayoutInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 810B51C4E3A700F6AA2CED88E1A975D0 /* IGListCollectionViewLayoutInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		74021AE8DA8068962E566374E4097561 /* IGListBatchUpdateState.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C3EA2439322CBDBBE8D5600165DF1A1 /* IGListBatchUpdateState.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		7448C55AC852D9DD05F91D03E7430E4C /* IGListScrollDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CE912D8069BC18253C6E7342274C499 /* IGListScrollDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		747C01441C5396FBEF9C1248AFFA71DA /* ASTextKitTailTruncater.h in Headers */ = {isa = PBXBuildFile; fileRef = 5679F77D2CC066D5A6EB6AC9641AE044 /* ASTextKitTailTruncater.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7517E9B14979B340E646786F61633295 /* PINRemoteImageMemoryContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = C2F8F696C729A5CD106EC7FE9A6F4209 /* PINRemoteImageMemoryContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74B09D8B18B4FC7F362FDF0BEAC1F6CC /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000B87A61B1B2D64B1690E1523222DD6 /* Accelerate.framework */; };
 		7519CE796331C11AA98A2C378469C5C2 /* ASPagerNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 53FE53C1E6C3A6CA9C966437943606CC /* ASPagerNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		754387526F91E21C33D2C7D97F6A3183 /* ASDisplayNodeCornerLayerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 276000FB57FE559E22B2E35B5F7991B4 /* ASDisplayNodeCornerLayerDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7597FD2790FC3E3002CC855FDF1EEFAB /* IGListArrayUtilsInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 56044658E42AA782EB43094BE8D1CED9 /* IGListArrayUtilsInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -308,7 +314,6 @@
 		76A6651AC5E8FC05094A62E7644F82E6 /* ASDisplayNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 70CBD2C4461AC6D4F01A2299DA69DA77 /* ASDisplayNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		770A7C634F7BBC9E2C030AAC217A383C /* IGListAdapterUpdaterInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = E90FD8B527404D2F433BA3FBEFC7B09E /* IGListAdapterUpdaterInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		77286D7001080738F46BF5A8381FADC3 /* ASInternalHelpers.mm in Sources */ = {isa = PBXBuildFile; fileRef = CB372B11D4C6794E89A9C50BB3103668 /* ASInternalHelpers.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
-		7786E21F8F8B8A0A4A11B660FBB1D60C /* PINRemoteImageCategoryManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E6863DCD5FC7B4CDD48529EF100AF5EE /* PINRemoteImageCategoryManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		77ACD6E118EB705D950B1286046B4719 /* ASTextNode+Beta.h in Headers */ = {isa = PBXBuildFile; fileRef = EB5D180B2F3DC2BEE79B3CAF98030690 /* ASTextNode+Beta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78027D33431F29D9681978B45EB10FA1 /* ASIGListAdapterBasedDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = C55830E72711313E80A18B61C7DD251C /* ASIGListAdapterBasedDataSource.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		781AF9A3C15890EF952310D5E2B2DCE0 /* ASButtonNode.h in Headers */ = {isa = PBXBuildFile; fileRef = B6393E7CF3F3A2944D58130B5CDEA6B1 /* ASButtonNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -317,15 +322,12 @@
 		793BF67568945D237C6A1B122CCDEABE /* NSMutableAttributedString+TextKitAdditions.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9E61B80B76D31E70E9268DC82A235299 /* NSMutableAttributedString+TextKitAdditions.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		799D96CBDE1ECFDFEA32D88C17B82805 /* ASTextKitComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = D594EF9729DF5B2FE69A70D645A452E9 /* ASTextKitComponents.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		799EBEB9AF45263C677333806414AD07 /* ASCollectionView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4AAAECA4C35234F5B7A93AC2062C515D /* ASCollectionView.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
-		7A5DF2C8348FEA7C2FA88C4C4846CA31 /* PINAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD3C03526F21F7F1F84424F83DD0003 /* PINAnimatedImageView.m */; };
 		7AA09E2D7AE0A27070B17368AE1EDC2A /* ASDisplayNode+AsyncDisplay.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8D029FD0901644B272FE037C3577C3E4 /* ASDisplayNode+AsyncDisplay.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		7AF266A66528015F588DCA5B8E04E49E /* ASTextLine.h in Headers */ = {isa = PBXBuildFile; fileRef = 031328C2308651F68F338E69523BA88A /* ASTextLine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7BB3B41A692D42272CEB3CD6023A97B8 /* IGListIndexSetResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E87484567C2D790D18956DD4E7098B6 /* IGListIndexSetResult.m */; };
 		7BD54D30041776C0B085EBE0CA1E5207 /* _ASAsyncTransaction.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9D61B26FBC825801520794DD69782F9 /* _ASAsyncTransaction.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		7C19CD6A543192A0EEA58989E0E31E47 /* ASTwoDimensionalArrayUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B0C06F21ED47890C548DAA31D8910EB /* ASTwoDimensionalArrayUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7C4F8C96F497B996CB199F14F56812F4 /* PINRemoteLock.m in Sources */ = {isa = PBXBuildFile; fileRef = DADA438DE34CEC7CC42443658951B63B /* PINRemoteLock.m */; };
 		7CFC6E5C81DB4F42F1C469C8194FE64C /* IGListAdapterPerformanceDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1742263CBAFD398849A2B942EBCC59A6 /* IGListAdapterPerformanceDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7D18768C638CA93F11A2F82E48B64C47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B1295C1F56AFEC16278E0EE3AE38BA2 /* UIKit.framework */; };
 		7D286090B2D33A410F0D0A4CF2BEF75C /* ASHighlightOverlayLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A4A0D92EF21B5DA1C2B1E59752DB6B /* ASHighlightOverlayLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D6EB166CD4530B9E1CB943798269D5B /* IGListIndexSetResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 504AEDA083C8B986550E35D7FBC050F8 /* IGListIndexSetResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7DD789BC04059093FB4E8DF040CA531D /* ASPendingStateController.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCE8FA979ECD7AECCBA1462AAB8886AE /* ASPendingStateController.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
@@ -333,41 +335,38 @@
 		7F84FEE3EE01A8864CA2DD35DD6D2538 /* ASTableViewInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = E97BD25078126CD9CF1EFE301314ED26 /* ASTableViewInternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		802F30855078A96DA242DFA357289B86 /* _ASAsyncTransactionGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6408B9BD8657F281B5B40BCBA166FE /* _ASAsyncTransactionGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8171FD5B19143057D772E4A9500CAE8A /* ASMainSerialQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 5641DB9CF01E7B3887F7D522FC41C190 /* ASMainSerialQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		817763DA69031359175EE12AF72668E2 /* PINWebPAnimatedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 635F9A299ECCC8E0B7114C71C5EBD652 /* PINWebPAnimatedImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		826E3A8D8BC124AA0DE165335FD4BAAD /* ASCollectionViewFlowLayoutInspector.h in Headers */ = {isa = PBXBuildFile; fileRef = E2677E942ECDC74A725D6512A3F76CF5 /* ASCollectionViewFlowLayoutInspector.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		82FCF8B3CF8EE9AEED0D66D67C9B0A8A /* ASPageTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 36651E5B4F86A1059ADAB545DCC56B1A /* ASPageTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		840F7452FC8C95F23BF04DD115213F2D /* IGListAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = E874156AEB34B0BE45F48244770790EB /* IGListAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8416695981053999DAD7F6A8B02BCAC2 /* ASImageContainerProtocolCategories.mm in Sources */ = {isa = PBXBuildFile; fileRef = 14A4D48B6A090FFF6538C5F38E2CD6C0 /* ASImageContainerProtocolCategories.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
-		848C25AE2839C1CA24822B2F88C88C7D /* PINAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = FF70BF28E66D0781E7BDB197BEF5423F /* PINAnimatedImage.m */; };
 		8496642D11B8F7637EB2E2D71BB83FF2 /* ASDimension.mm in Sources */ = {isa = PBXBuildFile; fileRef = B921F665E9BF5EA5A472C5947A98A946 /* ASDimension.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		8500F9C0DFC843EB5A4ED4FF0664B213 /* IGListReloadDataUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2585BDA3EA87740B713E7AE8B570B7 /* IGListReloadDataUpdater.m */; };
 		852CE21AE89DEB949354ED8EA8ABEB81 /* ASCollectionViewFlowLayoutInspector.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9DD940302061B679C647CB1FCEC11A9 /* ASCollectionViewFlowLayoutInspector.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		857AB5F39FCA5E1F81A5D20A3A16DD19 /* IGListAdapterMoveDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 748853F46CE5153B7699BA0333283C6F /* IGListAdapterMoveDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86213D9C551CFA62B5F1DA69558A4043 /* ASLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = B0A7D97BB1EE61A8BBAA43B8084162D9 /* ASLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86A6370F297F87A34ABC316470B564C3 /* IGListReloadIndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F1A8678FEB4A2A9B59C76443A11AD5 /* IGListReloadIndexPath.m */; };
-		878335E7EA91660B2635530060817420 /* NSHTTPURLResponse+MaxAge.m in Sources */ = {isa = PBXBuildFile; fileRef = 91239CE7765975E964F3DA447108AC39 /* NSHTTPURLResponse+MaxAge.m */; };
 		8933125F14AA552ACB4B02ACEAC95A46 /* IGListCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 53C74978D898380BE40F093416D35614 /* IGListCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		893F7756F66C8151289F9807C6066513 /* ASTwoDimensionalArrayUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5F7DF78CC2D382EEAA6F153858C261B8 /* ASTwoDimensionalArrayUtils.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
-		898401A9D2A6DC70342A804CA5755C7D /* PINRemoteImageCaching.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EB018B93C0B185F84A30958EA325079 /* PINRemoteImageCaching.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		89F2C00D022543FF15BC1A0CDBB6E6D7 /* ASTextKitTailTruncater.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7E13EF0219557ED75651DBA6FB0A9C72 /* ASTextKitTailTruncater.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		8A1054BD8443BDA25580AC97D7058FD8 /* ASMultiplexImageNode.h in Headers */ = {isa = PBXBuildFile; fileRef = ED54FE0E5E2AA01F643F386C817D5507 /* ASMultiplexImageNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A465CC2B4BB341735A5AEB15B28C587 /* IGListAdapterUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF13D5DF49984B4E1144689042F8493 /* IGListAdapterUpdater.m */; };
 		8AC9E9ACB2C52077863D538C75C1E430 /* IGListWorkingRangeDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A1F99B0C9D27723270264378DE44CE0 /* IGListWorkingRangeDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8AFDD8A355B3A978104927FAF62C892E /* PINRemoteImageManagerResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 3776CDA7A3D33035FD07FED622108A7D /* PINRemoteImageManagerResult.m */; };
-		8B3C8E2B543C7C8A2C95E3030F46F56E /* PINButton+PINRemoteImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A122443C6051D64AFB92367B7E24485 /* PINButton+PINRemoteImage.m */; };
+		8BA6CDBEED374C4D81A8EA7F05074C6D /* PINImage+DecodedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3C363F4B8547ACB8B09FE60C1D2DCD /* PINImage+DecodedImage.m */; };
 		8BAAF8244DDEDF0B9242606319E43270 /* ASButtonNode.mm in Sources */ = {isa = PBXBuildFile; fileRef = D1C85571345F0C7D8C94C3DACACD5041 /* ASButtonNode.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
-		8BCD1D5EB6B812254575B2DA11A57E11 /* PINRemoteImageManagerResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF24B6E5AE72FAA4D08A6D62F62645F /* PINRemoteImageManagerResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8BFEB9C3C626A183748DD4B9D14EDDA7 /* _ASDisplayView.h in Headers */ = {isa = PBXBuildFile; fileRef = A6534F49FA66C290B96DF8172176D6A0 /* _ASDisplayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C582B873BC1A608F906517343D946C8 /* ASDisplayNode+Subclasses.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AB2CA95E94A4FBD3C9D5E2A2AFA4C39 /* ASDisplayNode+Subclasses.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8CEDED8C24FBB29BB586A00CE4EBC042 /* ASBatchFetching.mm in Sources */ = {isa = PBXBuildFile; fileRef = 997EB63CD293419931CE4E82B77F354C /* ASBatchFetching.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		8D7D83BEDC1F1AA3295D5A48393303A1 /* ASTextKitEntityAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 7278E2481825DC4C2C30C717C7481B85 /* ASTextKitEntityAttribute.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8E6B9189025695AD14E0C079E8B9423A /* PINRequestRetryStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D8BFDA0696067181F39A0636765FCF /* PINRequestRetryStrategy.m */; };
 		8EB58CFF7FF676D2537E564AEA47C18C /* IGListAdapter+AsyncDisplayKit.mm in Sources */ = {isa = PBXBuildFile; fileRef = 24242081A43359056826FBFA5B133EF8 /* IGListAdapter+AsyncDisplayKit.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		8EC000512C628B3F96F79C4F86B9337B /* ASDisplayNodeExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = 96FB82011ADC47AC9A67E3B0D8997673 /* ASDisplayNodeExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8EF72BE56C31A8A67872154F61605B81 /* IGListExperiments.h in Headers */ = {isa = PBXBuildFile; fileRef = F63045BD927E349C8A2729DDF982C149 /* IGListExperiments.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F0A928DB0B286926A5F9A4B80D9B956 /* ASTableNode+Beta.h in Headers */ = {isa = PBXBuildFile; fileRef = 91BDE5ABD33C5500B73293526D76EB2E /* ASTableNode+Beta.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FC16A6FED9B7726600AAAA8BCBB958C /* PINRemoteImageMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B0D4BA61315B6A5553A7BC7A3C87458 /* PINRemoteImageMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9044EF0C4D4580D5852C6939F758CFDC /* PINOperationGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = BCB8BAA907FC9811FFF2EDA85087C051 /* PINOperationGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		904F36611320A0B0263B3A9C6B94621E /* _ASCoreAnimationExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = 25B73783F885B138B47104850D313747 /* _ASCoreAnimationExtras.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		906480368A4E88E61BC242196FADDA89 /* ASTableLayoutController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 211E0590216D6F2B1A46AC55229D0CE9 /* ASTableLayoutController.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
+		9074D4C83D0E63B281B91B387CADF53A /* PINRequestRetryStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = C7A89B39501A5C0B5A51D1DCFE1EB1B6 /* PINRequestRetryStrategy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		908E8619A269E2C276806AE314CE586F /* ASCollectionNode+Beta.h in Headers */ = {isa = PBXBuildFile; fileRef = A8FE3D9E8065760177FBD65C8953F92F /* ASCollectionNode+Beta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		91274C3584D38E2638A1745FEDA9538D /* ASResponderChainEnumerator.mm in Sources */ = {isa = PBXBuildFile; fileRef = AFC70BDFA791CD3395C777358F27446E /* ASResponderChainEnumerator.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		9265B2B2156519D7B40F3EDDD8D1C192 /* ASGraphicsContext.mm in Sources */ = {isa = PBXBuildFile; fileRef = D2D3D02FF86F71CF6366F7AFB243B759 /* ASGraphicsContext.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
@@ -375,19 +374,20 @@
 		933DD8B404D53854B302C2324480D3D6 /* ASTextNodeWordKerner.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4875A1FD6649640FA62E9BC59547B8FD /* ASTextNodeWordKerner.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		936251686B4F02B9AFFFD246C38354C7 /* ASTextRunDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7445A72E548F82D4ECDAE4BFB2CE2F65 /* ASTextRunDelegate.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		93C990107889CD695DFE3958F0C1EBFA /* UIResponder+AsyncDisplayKit.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4CC897A712ABC8D4122366B8A0260C62 /* UIResponder+AsyncDisplayKit.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
-		9419421C195D92895615E7D3042FA346 /* PINImage+ScaledImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CBEDCB010EAEC1BEC65A52F1266028 /* PINImage+ScaledImage.m */; };
 		948EF75A6EEEA73E2F3BFFB02D1324FE /* ASTextUtilities.mm in Sources */ = {isa = PBXBuildFile; fileRef = D720E3E8E2324F89C5C8D855DF283E2B /* ASTextUtilities.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		95818981A8A40D46F2FB00A1DACA24F6 /* _ASDisplayViewAccessiblity.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E3358B804251CCD48653EA8846C2CAE /* _ASDisplayViewAccessiblity.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		95A0F6639AD530F7F0EA9D2CBF638B45 /* ASPhotosFrameworkImageRequest.mm in Sources */ = {isa = PBXBuildFile; fileRef = A87E6318AC1F3AEF018ADF3EB2C44CBB /* ASPhotosFrameworkImageRequest.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
-		961DE130A9E4DD57A6F25B062255283A /* PINAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1717AD2035A7181D6C10F99E67E40FB4 /* PINAnimatedImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		963EDFDA849BE779CFBE424A59E9C68E /* PINImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = C7845016DE96E1E94CC77FFFEED29589 /* PINImage+WebP.m */; };
 		968971A45542B0E8C6C2F38D67BD397E /* ASCollectionLayoutContext.mm in Sources */ = {isa = PBXBuildFile; fileRef = EF8D3C2CBE72A5B2D07AA834595772E2 /* ASCollectionLayoutContext.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		97197432D5B88CA02BBEA3E61413598B /* ASDisplayNodeTipState.h in Headers */ = {isa = PBXBuildFile; fileRef = B43783E877107C1AE9EC320FDE5DEF54 /* ASDisplayNodeTipState.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9817E0F28CAD6217599E27E392D4664F /* ASImageNode.h in Headers */ = {isa = PBXBuildFile; fileRef = BE0B86B5DBEAF695DB9270656C09CB65 /* ASImageNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		983C97E8D8F2AA85CAEDDB6D74EBA866 /* IGListSectionMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAA54D3AAFADF61567FC1100412814B /* IGListSectionMap.m */; };
 		98538E4A5FBBF47CB6E24BD65467E390 /* ASPageTable.mm in Sources */ = {isa = PBXBuildFile; fileRef = E8E1BA7744D2462B986A8BAD479D8515 /* ASPageTable.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
+		98A2615D4B3E6E6AF69D18AFAEFC45B8 /* PINProgressiveImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 957E2032CAB64F624EF8E33B62B94787 /* PINProgressiveImage.m */; };
 		9A19511924BC9C421CAF0402856BF793 /* PINOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CB628F578F2140E07B305490E1A300 /* PINOperationQueue.m */; };
 		9A60D33DFAAAECB9AA99631EDB4F958C /* ASLayoutSpec+Subclasses.h in Headers */ = {isa = PBXBuildFile; fileRef = 32C89BAAD2879541CB2620CC5EF4FA63 /* ASLayoutSpec+Subclasses.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9AB5F5DFCF16C532905B871865FB6786 /* ASDKViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = A1FE37610669F9B16B1BCCD8F1129ECC /* ASDKViewController.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
+		9BA5729618F698204B81860E1BF5CBA2 /* PINCache+PINRemoteImageCaching.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A7C884DA48AA3C06082FE354A6AB65 /* PINCache+PINRemoteImageCaching.m */; };
 		9BDCB75960A60DD0DEE0FA6101987B26 /* IGListAdapterUpdater+DebugDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = B314195EB8E13CCEFBA3F306F436E27E /* IGListAdapterUpdater+DebugDescription.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		9C5254A71019F6D346E643611192AAF4 /* IGListCollectionViewDelegateLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = DA4F66B9DCC8503EEEA90CED2B4B67AD /* IGListCollectionViewDelegateLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9CB2960ABC2D2CECB44C02A3AE039031 /* ASLayoutSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = C96D2C6DE28730BA73CA120A5863DEB6 /* ASLayoutSpec.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
@@ -397,29 +397,25 @@
 		9E2B220A2A3223F08334BBCBDFEE5BC3 /* NSNumber+IGListDiffable.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CF13755D79DF20A4FF84D1A9E2B4D1 /* NSNumber+IGListDiffable.m */; };
 		9E980E58348CCE4A9CEDBD023013F552 /* ASCollectionLayoutCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 915FDE1B18C7BC676F3133F945EB6A6D /* ASCollectionLayoutCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9ED0DFF2B7B21C647DDFC8559C9479C2 /* IGListAdapterUpdater.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A9050C49FD596ECF0E5360C03E1563B /* IGListAdapterUpdater.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F275DA64CC73A8CBF503779C60625B3 /* NSData+ImageDetectors.h in Headers */ = {isa = PBXBuildFile; fileRef = F55F1079F705765760EA43A569176E83 /* NSData+ImageDetectors.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F72C33B088E4E148F6EC12EED113589 /* ASDispatch.mm in Sources */ = {isa = PBXBuildFile; fileRef = B1F098745AD4F2474D03EC5CE1BFC919 /* ASDispatch.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		9FA496572EA0E9FF21E9744683A8C3E1 /* PINOperation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C155060541A646EDB240918899F56FB2 /* PINOperation-dummy.m */; };
-		9FCC625FA1BF0D5B9D79A1BC1AF1E5EE /* PINCachedAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C4CD7C113120D6B6C78E70662CC8EF /* PINCachedAnimatedImage.m */; };
 		9FD05259F5F67164724DFFC090EB5819 /* ASCollections.h in Headers */ = {isa = PBXBuildFile; fileRef = 53A327716858DEB28711693D73A2BAA3 /* ASCollections.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A007A9CCE045C77A875CC7C4AF51E9A0 /* NSHTTPURLResponse+MaxAge.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CA4359BA9312B3D70B1750AA03436D8 /* NSHTTPURLResponse+MaxAge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FF705AC7F8B0A20CEC5CC8D397C606F /* PINButton+PINRemoteImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A122443C6051D64AFB92367B7E24485 /* PINButton+PINRemoteImage.m */; };
 		A058E2193E83663AE154E4D8099BBE8C /* PINCaching.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB0398AD597273AE82C589BD20736AA /* PINCaching.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A0778F3A26137BE9262E2F4E042D04DF /* IGListIndexPathResultInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A8A6984CA43199F07D96E388A2D3D3B /* IGListIndexPathResultInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		A07A372022EF724EADE54A9E563C73C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04099617DC1F8D4E3E509C4515428674 /* Foundation.framework */; };
-		A0A1C0043D41E08059054D40EC8CF3C0 /* PINRemoteImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99010D6DE585D315DD82233AE475AA7D /* PINRemoteImage-dummy.m */; };
+		A1090A7968F0DE82AF2A2EB72D25F811 /* PINRemoteImageBasicCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BAF1A7E15E92295F5F8B86B2BB61D71 /* PINRemoteImageBasicCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A184427D881B252726D9DD4D47616647 /* ASAsciiArtBoxCreator.mm in Sources */ = {isa = PBXBuildFile; fileRef = 72BB9510E9AC5F0BD3DAFA317FBC0BEE /* ASAsciiArtBoxCreator.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		A19366C6BC7101DC193D92176EB89C37 /* IGListKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ABD3008969126F46B55E2C12623828D0 /* IGListKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A1FFF4B8FB3410D63594007BBA288632 /* IGListReloadIndexPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F8CF0F596477353BF016F15F1030F6C /* IGListReloadIndexPath.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A288C855FF82A7DEADF0C22F2BD68F0C /* PINRemoteImageProcessorTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF12A31F75EB0C07B79E1B72D6A6B84 /* PINRemoteImageProcessorTask.m */; };
 		A2A984B4E66BA02271BC058FDC068436 /* ASLayoutTransition.mm in Sources */ = {isa = PBXBuildFile; fileRef = 27B225A3236057A354459E38BD391E1B /* ASLayoutTransition.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		A2F94A05F0318D213ABDBABF6CB2CC08 /* ASCollectionFlowLayoutDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 236A893CF76D41EB97D1626D5AF88AEA /* ASCollectionFlowLayoutDelegate.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		A306349DCF43F00C535D8A7C2B5DDE55 /* IGListSectionMap+DebugDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 85BC5B3344B165A076DA8F7E32C38C09 /* IGListSectionMap+DebugDescription.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		A404C0924ECF70F20F76E1AA5F32876D /* IGListDebugger.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DEDA79003ED39F2A52115948ED505C3 /* IGListDebugger.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		A449CD33341464AA268BAFE77A6F07D2 /* ASDelegateProxy.mm in Sources */ = {isa = PBXBuildFile; fileRef = 54DB4E72F6BC313BFD01ACC6C7791D67 /* ASDelegateProxy.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		A49554888908D2EECB3B9641E5A9F9DD /* ASNetworkImageLoadInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2860527F9AFCD44E1B01B7D97601ACBC /* ASNetworkImageLoadInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A49B4BE001B152A29E1231A0F3CC8182 /* PINSpeedRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = FED72A181D977656EE836631BC22FD93 /* PINSpeedRecorder.m */; };
 		A4F489419FAB2C97FB0DA5B954C4E25D /* ASConfiguration.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1D2682FFEA39C7FE35A86072079B0CB3 /* ASConfiguration.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		A5D04203BC8E36B189007CC11FE6D7DD /* ASCornerLayoutSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = 55CD5600C4C8A73FFFFAF1B70CA97FA2 /* ASCornerLayoutSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A662BC683008DE9C18F0428B1E583A7C /* PINImage+DecodedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 53DE193418F908FA6896DFD33B1CF305 /* PINImage+DecodedImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A6F15E762ADA8DA8D3194E505CA28520 /* ASWeakMap.h in Headers */ = {isa = PBXBuildFile; fileRef = E83A842266CDEAD70FEF37CED3AF936B /* ASWeakMap.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A78980DF41A73B4D400226FED5E49CCB /* _ASCollectionGalleryLayoutItem.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3369F315B9E75697DEFD3FCF8A766A2D /* _ASCollectionGalleryLayoutItem.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		A7D2D7A0DA1FE7D36F7E70E39DCB9752 /* ASMainSerialQueue.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5556CA74B233BE1235858560E469DADB /* ASMainSerialQueue.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
@@ -427,6 +423,7 @@
 		A7E8750FF3300120FA33EF96CC4B766F /* ASControlNode+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 7935DE720CA443757522C77282887DBC /* ASControlNode+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A90702E21ED9CA4F5D75625CC53AC78C /* ASSupplementaryNodeSource.h in Headers */ = {isa = PBXBuildFile; fileRef = F73020986B0B9D3F77DB14F850D86E7C /* ASSupplementaryNodeSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A96DC50C1463DE77B836AB0AA197644D /* ASTipNode.h in Headers */ = {isa = PBXBuildFile; fileRef = B1CE5DDE11B74AC37339A7CBA9DB5696 /* ASTipNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AA3EA60043526670FECF137F7C3E5137 /* PINResume.m in Sources */ = {isa = PBXBuildFile; fileRef = 8555FA0F8E3B9A886AEC788E60171031 /* PINResume.m */; };
 		AAA35E4E83A636C70D1BE2A48441D092 /* CoreGraphics+ASConvenience.h in Headers */ = {isa = PBXBuildFile; fileRef = AA529E4957D8F16FF78F70104087DB0B /* CoreGraphics+ASConvenience.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AAF97227B6CB5C98AE3F2C47CDCDB90E /* ASDefaultPlaybackButton.h in Headers */ = {isa = PBXBuildFile; fileRef = AFE26DDD9E514497F235FA95E380012B /* ASDefaultPlaybackButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		AB2560FCF74579EC06F8126B1141F21F /* PINOperationTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = C8D4604039587780D384D2C26BA65143 /* PINOperationTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -437,19 +434,24 @@
 		AD951EA8C76B4AE7CFB4669804B8275B /* IGListBindingSectionControllerDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 437230419C054BC79C4786300E95BA50 /* IGListBindingSectionControllerDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ADDB651FE2721BAF51282009748D39F2 /* ASDisplayNodeTipState.mm in Sources */ = {isa = PBXBuildFile; fileRef = E8DAA56B16C3E695908C28DC084C4563 /* ASDisplayNodeTipState.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		AE48C8297A501D23B63108B96A4D2275 /* ASImageNode+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = B120C113412FFB3DFDC4DCB80C93578E /* ASImageNode+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AF541D691611212BAB6FE64FCFBFFB9B /* PINImageView+PINRemoteImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1E1C41B427231C6EDBB9549BCC3DF2 /* PINImageView+PINRemoteImage.m */; };
 		AF714C1FAFBC5CD72F6F1F4183DA828A /* UICollectionViewLayout+ASConvenience.mm in Sources */ = {isa = PBXBuildFile; fileRef = AD3FB80C345D114CEECAE5F6B9F80DE9 /* UICollectionViewLayout+ASConvenience.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		B0B7E797C554D5AB00D1B4FAA037BD80 /* ASDisplayNode+Yoga.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D283DE8203F62A0AD7D0D9A7009D3ED /* ASDisplayNode+Yoga.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0BEFF11D1E87E90F6136809B76F9C12 /* PINAlternateRepresentationProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A2A4454E0F9B6DB24FB3460C13B5321 /* PINAlternateRepresentationProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B0FA8F60199E8A86744575896657CF9E /* ASTextAttribute.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6EAE0469A9006236CA82ADDABB88EBED /* ASTextAttribute.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		B10EA9E9BD824CA72D16679D61C6644B /* AsyncDisplayKit+IGListKitMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 52F9A2A2397B9EBC5291FEFCC6D4C153 /* AsyncDisplayKit+IGListKitMethods.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1CB783307BCBF500D3E9E901E7DAD15 /* PINRemoteImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A597BC49166D4CF4E47A79EE04335533 /* PINRemoteImageManager.m */; };
 		B1DAC65FFC831F6D51EAC90BD4B4D92D /* IGListWorkingRangeHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 018624E5865E2931AC3916367C596F5F /* IGListWorkingRangeHandler.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B2250A91B63937EB4983ACD56480CAC5 /* PINRemoteImageManagerResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF24B6E5AE72FAA4D08A6D62F62645F /* PINRemoteImageManagerResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B26D5547BFAAA763A4511D68E61CA043 /* ASLayoutElementStylePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 10CE0794AB18EED4B66E8F2F77E5F08A /* ASLayoutElementStylePrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B28B5D6EF847433E1E2485179ABB8F23 /* PINAnimatedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FAE8C880E961BCD14BC7D8B767B07B3 /* PINAnimatedImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2CA1E73CE79937047A401B78829E210 /* PINRemoteImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 15D5D88E05393259DCCBD01CA44AC711 /* PINRemoteImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B302C0E166BEAD57323560BD35C72975 /* PINAnimatedImageView+PINRemoteImage.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC273366F9348DCA374ED36CAD3F57B /* PINAnimatedImageView+PINRemoteImage.m */; };
 		B3296B7ABF79B3AFD366C7907FEBB465 /* ASTextKitFontSizeAdjuster.h in Headers */ = {isa = PBXBuildFile; fileRef = 41B62770E77D081A47E30081E4D6D802 /* ASTextKitFontSizeAdjuster.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B35FBFA02E64BE65F1F1497D7F5DDF2E /* UIResponder+AsyncDisplayKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DCABCD2753521AC047A6998F3CAC409 /* UIResponder+AsyncDisplayKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B4898FFC7091EDAD8B9AB4AE27659FD2 /* PINRemoteWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 609F374CF6EC75A951C88BB91AA043AE /* PINRemoteWeakProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B48E75E393C43A3370546CE3D4AC19DB /* PINRemoteImageProcessorTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF12A31F75EB0C07B79E1B72D6A6B84 /* PINRemoteImageProcessorTask.m */; };
-		B4C40FC629F0F9603B31BA7C750046DE /* PINAnimatedImageView+PINRemoteImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 13A0CC7C0D0D4224B06E46DD1F2111AE /* PINAnimatedImageView+PINRemoteImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3621FCB5C4228A8747A47593350796B /* PINRemoteImageDownloadQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = B795143BF0B68EBD09A8DCB4A06E6D1E /* PINRemoteImageDownloadQueue.m */; };
+		B4F612315C657693262380F2AB563D54 /* PINRemoteImageDownloadTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 355949FF13A9F46B478E3B91BABF1417 /* PINRemoteImageDownloadTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B5963449A46E6172AD3DEF4B34119C01 /* _ASHierarchyChangeSet.mm in Sources */ = {isa = PBXBuildFile; fileRef = EDADB638832BFCE415E6D3F299DA65F9 /* _ASHierarchyChangeSet.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
+		B5B441CE912B6048AA48717DAE17BFB5 /* PINResume.h in Headers */ = {isa = PBXBuildFile; fileRef = B33983B2990D899446A46F09409CDC2B /* PINResume.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B5E02A83F6C06F6D285E2EB1365A07BE /* IGListSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6132A92116B8061709ADC7C1840FC9BC /* IGListSectionController.m */; };
 		B5E4587A3B82B431B533FDE487067665 /* ASPagerNode+Beta.h in Headers */ = {isa = PBXBuildFile; fileRef = 27044EAED870F516BDF548F1839F85AD /* ASPagerNode+Beta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B5E9087D833F9A036108A5DE37B81560 /* ASTextInput.mm in Sources */ = {isa = PBXBuildFile; fileRef = C9B30E72E07DE472FE966D5CA89DE604 /* ASTextInput.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
@@ -463,32 +465,27 @@
 		BADD1937506D7F164A0E09E509FBA857 /* _ASAsyncTransactionGroup.mm in Sources */ = {isa = PBXBuildFile; fileRef = 878F2EFCDE6D68B82F19BC513398014E /* _ASAsyncTransactionGroup.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		BB7661038F954A0872D7356955877D34 /* ASCollectionFlowLayoutDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E46250643E73F38B73B6FAE1375EDF9D /* ASCollectionFlowLayoutDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB8499A101C11B78B8EAB64C48A01CEC /* ASImageNode+CGExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = CE8F84C3E3DEFE8E4FCD4B2230DC1259 /* ASImageNode+CGExtras.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BC4E5F22E83829DE84ADBB48BD230DE2 /* PINRemoteWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1144C92BDD07C968F078A3800454078 /* PINRemoteWeakProxy.m */; };
-		BC69FE7C135AD8B0C1734F8EFBB8753A /* PINDisplayLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 972FAB52B95B7450F8B04CF6558F682A /* PINDisplayLink.m */; };
-		BD68272E87015A93284F5B0183F4C6E0 /* PINRemoteImageTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ADE65B2B67227F826D162BDE612FA26 /* PINRemoteImageTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDA5D826A230D88359030AAE818FE215 /* PINRequestRetryStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D8BFDA0696067181F39A0636765FCF /* PINRequestRetryStrategy.m */; };
 		BDE3CDB5ED11AC20A6501059B82CB088 /* ASTraitCollection.mm in Sources */ = {isa = PBXBuildFile; fileRef = 574773FDD0D74BF9130FF7DA0B13E2AA /* ASTraitCollection.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
-		BE720438A60C4A81EC92A355EB137C22 /* PINRemoteImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 15D5D88E05393259DCCBD01CA44AC711 /* PINRemoteImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE73FEEDE1445B54469D7F2F6805FDA2 /* ASDefaultPlayButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BCA271DC9EB24ED1428C40D220923F0 /* ASDefaultPlayButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BE9AA03C4FCC473A85B75648180EAE5E /* PINAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD3C03526F21F7F1F84424F83DD0003 /* PINAnimatedImageView.m */; };
 		BF8F8C64DB7DBEC09546AE2C68B1929B /* IGListSectionControllerInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = F0EA3BAD0DA72715E1C98C3FE39FA7AB /* IGListSectionControllerInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		C02C6DE15BC8980A0C95CE3304647B40 /* ASLayout+IGListDiffKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AE7246CC5D7728B473D82399C8102F6B /* ASLayout+IGListDiffKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C034AD07294FB54E342E7681836FF99E /* ASDataController.mm in Sources */ = {isa = PBXBuildFile; fileRef = E5A792CCA920E28F92EA76B73C4B2FC3 /* ASDataController.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
-		C0427800BE10B11608AAF6532C1652FE /* PINRemoteImage.h in Headers */ = {isa = PBXBuildFile; fileRef = F28E78A4377BF1F353D36FFA6A8BDBB5 /* PINRemoteImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0BB4FD34FBDE2C9E8571DD42F56FDD3 /* IGListAdapterInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = BA1B0D2E92AFD6B410149CE30357AEA3 /* IGListAdapterInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		C0E2F479332ED0297D2152651EEBBC32 /* IGListAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD4E43818A356E7E2EE3BDBED349FE8 /* IGListAdapter.m */; };
 		C1394149849FAD546A3B0483C22F99DD /* AsyncDisplayKit+Tips.mm in Sources */ = {isa = PBXBuildFile; fileRef = 208D7140104F6F4966535D7F686CFCF6 /* AsyncDisplayKit+Tips.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
-		C2395036EBABE7F014B56929F69A338A /* PINAlternateRepresentationProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A2A4454E0F9B6DB24FB3460C13B5321 /* PINAlternateRepresentationProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1F3C688ABCAA4D950A700D2135105F5 /* PINRemoteImageMemoryContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = C2F8F696C729A5CD106EC7FE9A6F4209 /* PINRemoteImageMemoryContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C29F84DE65F1DEAC59413F2DE311A6B6 /* ASCollectionLayoutDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A1A145CFD1142A43250396BAA262BA0 /* ASCollectionLayoutDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C321588E73C0202569625D41D634DF32 /* ASDisplayNode+Convenience.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F830B8C4212F0C23695E4C40F2ABE19 /* ASDisplayNode+Convenience.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C38F46413364CBAA66E096ACB450358C /* NSParagraphStyle+ASText.mm in Sources */ = {isa = PBXBuildFile; fileRef = CAC7FB4E7B1CF3F8A83BAE1ED51F4FD0 /* NSParagraphStyle+ASText.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		C3CE74410F050DCA5E2C8E1FF26A1125 /* IGListAdapter+DebugDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 7802082BC72FFA10E7EBD8535E98B637 /* IGListAdapter+DebugDescription.m */; };
 		C3F1FE6BB2F3E83DF225DB091D768ED3 /* IGListBatchContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 608001CCAA339A1858D6DEEEBF913CB4 /* IGListBatchContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C3F455D49AA09EB5CA60BE378E43F1A1 /* PINRemoteImageDownloadTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 355949FF13A9F46B478E3B91BABF1417 /* PINRemoteImageDownloadTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C4100215DE80BEABB04F1D0ABBD084B8 /* ASDisplayNode+LayoutSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9D82F3F7443E782F8BCA502AAA0C8F85 /* ASDisplayNode+LayoutSpec.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		C4AEEBC54196AF182696DE83EE41B7C9 /* ASTextNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CBB7904FE440181485F0085A1564C3F /* ASTextNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C5814CF9B5EB63D89CBE27EE2A19520A /* IGListGenericSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = F37EBF7A3EFC8912097FDD497E8CE998 /* IGListGenericSectionController.m */; };
 		C59B65C9A179534C953ACD3BA20721EC /* ASScrollNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 87166DC1AEEDFBA833CC675459501A3B /* ASScrollNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C64CF6AD65DCF43FEA473C43ADF1B23B /* ASControlNode+Subclasses.h in Headers */ = {isa = PBXBuildFile; fileRef = B496D93452E71AB48779A51AE468B1CE /* ASControlNode+Subclasses.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C6DC0F02C5A319E940AA974391B3A9C4 /* PINRemoteImageProcessorTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F14B29719AE043DC911EBA20751B39 /* PINRemoteImageProcessorTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C78B03AD94E9ADA8E4A492D852A4036D /* IGListBindingSectionController+DebugDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E3B1E5EFC4E90845D9A8012060A39F7 /* IGListBindingSectionController+DebugDescription.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		C7FF167E57E91D12A9B27672A1D89446 /* ASPagerNode.mm in Sources */ = {isa = PBXBuildFile; fileRef = E83F10D44D5321AF565A91AA7385288C /* ASPagerNode.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		C804E849029711219B03319BCDE3579E /* ASMainThreadDeallocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AFABA4CA8424EC3D3D5DE508A536A39 /* ASMainThreadDeallocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -497,9 +494,11 @@
 		C8E736F2681D5A47031328BE6DBAF0D6 /* IGListWorkingRangeHandler.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36C924C3165D24680A7E64A9A9F3A858 /* IGListWorkingRangeHandler.mm */; };
 		C969FC8C9F367E2ED5F2C55945794139 /* ASButtonNode+Yoga.h in Headers */ = {isa = PBXBuildFile; fileRef = C7773973B8D471945ED78A4C3FCA1EE4 /* ASButtonNode+Yoga.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C9AE3323BBA2DDA93850DFA2F4224582 /* ASWeakMap.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6423EF03D6492EF04740765CC1C48846 /* ASWeakMap.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
+		CA9418732345BB4E80DA9EECA7541605 /* PINRemoteLock.m in Sources */ = {isa = PBXBuildFile; fileRef = DADA438DE34CEC7CC42443658951B63B /* PINRemoteLock.m */; };
 		CAD4279F187C530C593D04F86A182AE3 /* ASAbstractLayoutController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1A2AE650597D33DF4947B9E9268F56F0 /* ASAbstractLayoutController.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		CB536094BDD4A8D60A6C69F68AC20E26 /* ASImageNode+CGExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA651193346CCBF268FAE632F52738CC /* ASImageNode+CGExtras.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		CB785EDE1913C8EB951D7D0E4CA79147 /* ASVideoNode.h in Headers */ = {isa = PBXBuildFile; fileRef = F89923F49D3DDC7EE086A052FF6DC7F0 /* ASVideoNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBCC7DD47C269771E26DF5E80D68DA3E /* PINRemoteImageManagerConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0BCBFDF34504BB7AB0521B7BC1A8A9 /* PINRemoteImageManagerConfiguration.m */; };
 		CC2D622535AED6D39919BAAD8B55B828 /* IGListSectionMap+DebugDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = BA624552531306616160D7C2925F3EE8 /* IGListSectionMap+DebugDescription.m */; };
 		CC393721636E6779B44BFE57B8A97DC4 /* ASBatchFetchingDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3260DD032D07B9201D52B5EC0CE665F0 /* ASBatchFetchingDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CCEF45AE0ED011E963815F9B3DA23405 /* ASTraitCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 28A449243864483AB40446D9F33797A2 /* ASTraitCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -518,10 +517,8 @@
 		D1ACA3976A3C3998EF2DA5AAB61E291F /* Texture-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F34EE94008BCD791E3F75011D7C4B4A7 /* Texture-dummy.m */; };
 		D23606C784A2F7DE6F67934DF6FA35C5 /* _ASDisplayLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B883645911A171EA24E91D5B5DD77C /* _ASDisplayLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D2A504E129C84569426770FD55421E4A /* ASPagerFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B7D8DEB5D357A2A58DABD184EC571DA /* ASPagerFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D3432BB8BB34875039B8A3C271336E05 /* PINCache+PINRemoteImageCaching.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DFC368E82761583C484E042377D3B5E /* PINCache+PINRemoteImageCaching.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D418E263BC0ED02AF2F997F9D7BF1CBD /* ASTip.mm in Sources */ = {isa = PBXBuildFile; fileRef = BB13DED5F1AC9A14094B38A849FD8F33 /* ASTip.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		D42E68B48CBDBB4786A4FD074F6FC4A3 /* ASNetworkImageLoadInfo.mm in Sources */ = {isa = PBXBuildFile; fileRef = C9F94E7945C7AB1BAA5641858C809508 /* ASNetworkImageLoadInfo.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
-		D514FA842155B72AE180DDBBF45F49E3 /* PINCachedAnimatedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = F05F85D3C50A47829B1CF366CB8B813D /* PINCachedAnimatedImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D52065A7550F5809843728DA0BAD866A /* _ASAsyncTransactionContainer+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = A8D66AAA85D195FDD6CE3FDED0B88526 /* _ASAsyncTransactionContainer+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D5B0848F63995109E45C214908F995AA /* ASTextKitCoreTextAdditions.mm in Sources */ = {isa = PBXBuildFile; fileRef = A8284CD3936C875E34AFBDA3036CD161 /* ASTextKitCoreTextAdditions.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		D5CE1763D27657B70F82B523B01BE141 /* PINDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B62EC5A8ED05FCE7319E8FC78337822D /* PINDiskCache.m */; settings = {COMPILER_FLAGS = "-fobjc-arc-exceptions"; }; };
@@ -529,6 +526,7 @@
 		D6492FC2334E5DCE14581A4D104E967C /* AsyncDisplayKit+Tips.h in Headers */ = {isa = PBXBuildFile; fileRef = D1C7D29488B80E69AD8F14780BDE4133 /* AsyncDisplayKit+Tips.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7ADAA6A25B3F6DE09AC3377307E7D2D /* ASTextAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B34F3CEE22B3D729040C34B9E4731B /* ASTextAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8332E09169A7A9D00E0398D4392DB70 /* IGListCollectionContext.h in Headers */ = {isa = PBXBuildFile; fileRef = B4F9AFAB44343A9A3D8B355B34210487 /* IGListCollectionContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D84FDD4AD4573A212BAFA750A5CA77AE /* PINImage+ScaledImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CBEDCB010EAEC1BEC65A52F1266028 /* PINImage+ScaledImage.m */; };
 		D8B214930DF9C535D79FDF67993FCC8B /* ASDefaultPlayButton.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8DCBBC21F99FA3508508A47B5EA36BAE /* ASDefaultPlayButton.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		DA36BB36699075B706863F8E6462F524 /* IGListBatchUpdateData+DebugDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 19E2CBA392199F91677C7F222C3D7DE9 /* IGListBatchUpdateData+DebugDescription.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		DA537286B85140EC0B108E803DFB545E /* IGListMoveIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A7EA204C5DA16ABA0D583086FBBB07 /* IGListMoveIndex.m */; };
@@ -536,14 +534,16 @@
 		DAFE5F57A761181F88FEA1B30BE9186D /* ASCollectionLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 250DA0969B3DBBDD8CA5A7F50B97BF6B /* ASCollectionLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		DB71215C8BA2EA07473FE987947247C7 /* ASDisplayNode+FrameworkPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 44494B1DF59B0CB754DF1839C1406D8B /* ASDisplayNode+FrameworkPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		DB7348B633AC6B1B0B1767E779036BE6 /* ASMutableAttributedStringBuilder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1E2DFA462DD4308C73EA0790B4B09138 /* ASMutableAttributedStringBuilder.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
-		DB7FA8C10EBCEC4481E4E5003BAEBA36 /* PINResume.h in Headers */ = {isa = PBXBuildFile; fileRef = B33983B2990D899446A46F09409CDC2B /* PINResume.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC54CB9D1030D705D6072F56CF862850 /* PINAlternateRepresentationProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8F53FC9AFC558080A71282EF4295E /* PINAlternateRepresentationProvider.m */; };
 		DC576EBDA8822307BFAA01B1E07EB6B2 /* IGListSingleSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 998B043362A5FCAFD17CD2D8B6374E3F /* IGListSingleSectionController.m */; };
 		DCFF9D5AB9522CAEC41F441A75AA3DAD /* _ASAsyncTransactionContainer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8870A3DF624464B79B8326FC7898193E /* _ASAsyncTransactionContainer.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
+		DD0EDD9E3BD87B9E7195A0EB73750A6C /* PINRemoteImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99010D6DE585D315DD82233AE475AA7D /* PINRemoteImage-dummy.m */; };
 		DD87CB8B55F727941ED1188F2FB4A273 /* ASLog.mm in Sources */ = {isa = PBXBuildFile; fileRef = AED3844045B423C4100144906DA8BE9A /* ASLog.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		DDA74D6EBFE54AC3941181507F8060AB /* IGListDebuggingUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 316E72283955AA64067003DDF2DD505E /* IGListDebuggingUtilities.m */; };
 		DDE66A2E31BE517F231EBEC98DFB2D9A /* ASTextLine.mm in Sources */ = {isa = PBXBuildFile; fileRef = 691FF04F629D44664FC9EEF5C51B8308 /* ASTextLine.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		DE86903D752E2403CBDD9083DEC8C1C9 /* ASBatchFetching.h in Headers */ = {isa = PBXBuildFile; fileRef = 28916132F13B7C2C1C7BFC15AC05F390 /* ASBatchFetching.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		DEA5B5EF97DD80A8457CB97904E72C25 /* ASTextKitAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D39671B3DECA34CBD2CFC20BDC1153B /* ASTextKitAttributes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DF111547B26227A5D6E272BDB4CFD210 /* PINWebPAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 51860369172769E57F410E24288DBA57 /* PINWebPAnimatedImage.m */; };
 		DF12FA0162AEB2360E9D896FFCE3D8FD /* IGListAdapterUpdaterDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F27D2A0167E6DA7CAFDC3669C5414968 /* IGListAdapterUpdaterDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF55C9BB410B515708F69ADCA2A17864 /* ASDelegateProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 6012BA744B41E6402FAF3B648BC70671 /* ASDelegateProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DFAC51132C7658AC672457C486762067 /* ASEditableTextNode.h in Headers */ = {isa = PBXBuildFile; fileRef = EFFB76D92A12871A5C5142F236C67094 /* ASEditableTextNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -555,11 +555,12 @@
 		E25F81DC48159C52A045D73D30865C19 /* ASContextTransitioning.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AD13BB2B9CB3011EBE52F1962C4A624 /* ASContextTransitioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E27A7B11B48923B9AB7A58E0FB79CD9F /* ASElementMap.mm in Sources */ = {isa = PBXBuildFile; fileRef = 01100F67C86BEC0F703BD189DA026E3D /* ASElementMap.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		E28717DD6A17C4B1689D8BE9A54DCBC7 /* ASLayoutController.h in Headers */ = {isa = PBXBuildFile; fileRef = 48F1AF411352980627217D0B5C3BB76D /* ASLayoutController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2A263F1EC27FA5E9ED3BFA90618D979 /* PINRemoteImageTask+Subclassing.h in Headers */ = {isa = PBXBuildFile; fileRef = 24F5532EC030B0D533F81BB86105FD7B /* PINRemoteImageTask+Subclassing.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E2D87277A57C7CFBEE5059D4BEF0443D /* ASIntegerMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E33B1EE510E81FC26DD132A8A28B28E /* ASIntegerMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E3370487F50F0C98E5562578A0140B70 /* ASThread.h in Headers */ = {isa = PBXBuildFile; fileRef = A45FABA91A2E82EDF4A336CE299023ED /* ASThread.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E362C21CF43363A849410617D9B0A524 /* IGListBatchUpdateData.mm in Sources */ = {isa = PBXBuildFile; fileRef = FF07831DFB61732585E62E8D46B2DDF2 /* IGListBatchUpdateData.mm */; };
 		E3654B7B5EA3627C0B7B924752E6582A /* ASTextKitRenderer+Positioning.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2674EFE98A92E3A69715C97981481D1E /* ASTextKitRenderer+Positioning.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
-		E3A179F6B09B2A4F812B6BF97005C0CF /* PINRemoteLock.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C3069650CC21AAF0676CBEEA312E388 /* PINRemoteLock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3D8DC739741DC85487232B520AF6927 /* PINCachedAnimatedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = F05F85D3C50A47829B1CF366CB8B813D /* PINCachedAnimatedImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E3EE9D70C3408946DBF5FF3337CBD1A8 /* ASLayoutElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BB9D36F29749AB3B082635824432D74 /* ASLayoutElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E499DE46AD78C3B4F67042BB0C16D679 /* ASLayout+IGListDiffKit.mm in Sources */ = {isa = PBXBuildFile; fileRef = B0ADFDCEF370706012804AF9AB20FAF1 /* ASLayout+IGListDiffKit.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		E4A9929380077CA9EEEEDEF84102BD7D /* ASAbsoluteLayoutSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = C9E589E47B7BBA3EEE8DFA9AD4F1FD4C /* ASAbsoluteLayoutSpec.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
@@ -574,14 +575,14 @@
 		E7E6D0A1C2F66770BE1A484A01B01A63 /* IGListAssert.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CB0D2BE5A383045B975B0F401AB3B8C /* IGListAssert.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E87BEA7CE121821F9D3D419A28A5A4EE /* ASDisplayNodeCornerLayerDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = BDD0EC0522B9E41ABE193F819A0D5D30 /* ASDisplayNodeCornerLayerDelegate.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		E8DD243C74554C8058BB19143460A871 /* ASRangeManagingNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 64B2573D0CB86085D32FC2203FF141AA /* ASRangeManagingNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA9FAFEDF264EE53E49568C72C77485F /* NSHTTPURLResponse+MaxAge.m in Sources */ = {isa = PBXBuildFile; fileRef = 91239CE7765975E964F3DA447108AC39 /* NSHTTPURLResponse+MaxAge.m */; };
 		EB11BE0DBFDA8DFB6DA4A0C9AA39DEAE /* IGListUpdatingDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = B16772B2584922A661FD5295230D575B /* IGListUpdatingDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EB90F4B569ECF4107BA4AE482A6DED49 /* ASDisplayNodeLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 0242C0341F2D5AA910EBDFACFA3F9F43 /* ASDisplayNodeLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		EB9F717026588D9195D66C285A3B9D3E /* ASScrollDirection.mm in Sources */ = {isa = PBXBuildFile; fileRef = FC6ABEC71EE102966DE699C00E43ACBA /* ASScrollDirection.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
-		EC1A97B1128F42E3EB5D61DC588C331D /* PINImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = C7845016DE96E1E94CC77FFFEED29589 /* PINImage+WebP.m */; };
 		EC531AECE9D0E8BA9E9C5AC06F5017D9 /* ASDefaultPlaybackButton.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0214701E68299E795F98A0DE8F3FF66F /* ASDefaultPlaybackButton.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
+		EC7F20D642C16B0E07D8D1754DBFEE38 /* PINImage+DecodedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 53DE193418F908FA6896DFD33B1CF305 /* PINImage+DecodedImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ECFA80EB6B070B2B500F725449368B48 /* UICollectionViewLayout+InteractiveReordering.m in Sources */ = {isa = PBXBuildFile; fileRef = 64603CCFF02EEA38541E69BE7FE16243 /* UICollectionViewLayout+InteractiveReordering.m */; };
 		ED7E55027D038DFA0F28CF25778C5C23 /* _ASCollectionViewCell.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4232E380B27F2E588DF7D70822D19E5B /* _ASCollectionViewCell.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
-		EDB61CFD723377FB377F422191F51AE0 /* PINRemoteImageDownloadTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC07695F242F697730B8B18FE0DC4B7 /* PINRemoteImageDownloadTask.m */; };
 		EDEF396FBC3AE2B50A116FCAADB6FC1A /* ASWeakProxy.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7CB4E5377ADD7CC1906ED17B75778F61 /* ASWeakProxy.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		EE060F907334D4572C53E0E9DEC15A61 /* ASTextNode.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7638E3E479A5EC981962DE815865649D /* ASTextNode.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		EE3E0A76A66D36050CA2A182F1D55CF9 /* ASTextKitRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 786892F53399A696EDA5FFB38E63EC38 /* ASTextKitRenderer.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
@@ -590,7 +591,6 @@
 		EF5BBA20911A52BCAB3AA25E58BCFF00 /* ASNodeController+Beta.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C32AC26B58C4C23B6B917655F409841 /* ASNodeController+Beta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EF918D8A961F50530C1418BD7AF9F53B /* ASControlTargetAction.mm in Sources */ = {isa = PBXBuildFile; fileRef = A702757397ED4E437B81E91224716A93 /* ASControlTargetAction.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		EFB771FEB3C95D1D765BC29C1EE050FF /* ASTextKitShadower.h in Headers */ = {isa = PBXBuildFile; fileRef = D813254134B81629EE4FF00CA2324AF1 /* ASTextKitShadower.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F05B82F3E35CD5A5537D2464E9E6F63C /* PINRemoteImageTask+Subclassing.h in Headers */ = {isa = PBXBuildFile; fileRef = 24F5532EC030B0D533F81BB86105FD7B /* PINRemoteImageTask+Subclassing.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F05E1FBBC487257543EDDA7C0639CB4A /* ASStackLayoutDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 719CE94B302D22666015E08FBF69F596 /* ASStackLayoutDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F0A08ABB136943268509AC916E89C1D2 /* NSMutableAttributedString+TextKitAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = BEF9960F59A3CAB8EEB4893C4F34974C /* NSMutableAttributedString+TextKitAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F105D53A3A5A848EA428305ACF3FDBBB /* IGListBindingSectionController+DebugDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = F2950C2741D170878BB74CFF17EBF03B /* IGListBindingSectionController+DebugDescription.m */; };
@@ -601,37 +601,36 @@
 		F30BBECD46A4C04CB6A1B7C132381440 /* ASHighlightOverlayLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2221642DA82D7E4029AC98ACD070D196 /* ASHighlightOverlayLayer.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		F39A9E660A0825FFEEC9CC6F6CAA0C7D /* ASStackLayoutSpecUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = CA66ED56068001B0AAF01886F30CA029 /* ASStackLayoutSpecUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F3BEF0AC4F61177190355786F025FD50 /* ASInsetLayoutSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8570A0932E6EA828AC449A352A6ED839 /* ASInsetLayoutSpec.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
-		F40FAA1D9453D862CD749A896D64CCCC /* PINResume.m in Sources */ = {isa = PBXBuildFile; fileRef = 8555FA0F8E3B9A886AEC788E60171031 /* PINResume.m */; };
 		F46E87B5FA8BBC0F5D308502DD29B50B /* ASDKViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 22FBFA572DAD4D0FE6039D8D07F1E13D /* ASDKViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4B9ADC72C8C395B1CB0A15439661BB3 /* ASCollectionNode.h in Headers */ = {isa = PBXBuildFile; fileRef = B87371910FC8E563EBE2808399EA3F2E /* ASCollectionNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4D7AAAD5EF0494D1B504B60455FD19C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04099617DC1F8D4E3E509C4515428674 /* Foundation.framework */; };
-		F5920C6342B4141E3AE432E0422CFDD9 /* PINWebPAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 51860369172769E57F410E24288DBA57 /* PINWebPAnimatedImage.m */; };
+		F4F2BAA20AAE43764491CC34890A7289 /* PINAnimatedImageView+PINRemoteImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 13A0CC7C0D0D4224B06E46DD1F2111AE /* PINAnimatedImageView+PINRemoteImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F5FC561E72803649ED1023E463AB9D17 /* IGListBindingSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE2D1BD4CD67CF348DCDEF1D1FA263E /* IGListBindingSectionController.m */; };
 		F60F8923647F569095E323FB5A3BB8AB /* ASTextKitRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 91197FF30C366A2BFC791034B6FA7C6D /* ASTextKitRenderer.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F6346F86A4CA506414453CF4D23DEF76 /* ASNetworkImageNode.mm in Sources */ = {isa = PBXBuildFile; fileRef = 838BAE2D4E4F0B378E19BB30A420B2B8 /* ASNetworkImageNode.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		F69E8D0B6C77EEB895212DD13F83E6EA /* ASDimensionInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 58FBB1C68F57B10BFC11B85D7A387555 /* ASDimensionInternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F6B72568B2ED857DF9C7849B077C8D0A /* PINRemoteImageDownloadQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = B795143BF0B68EBD09A8DCB4A06E6D1E /* PINRemoteImageDownloadQueue.m */; };
 		F6CA0DA52CCF6EB9B47B22196FA14E3E /* IGListGenericSectionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CC8F61F8FCCEA3DCA7C60783265A9F3 /* IGListGenericSectionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F6DAAFDAE90CBE5A2021ED376495EF55 /* ASTextKitContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 3512F64ECBD31C210893124CF163E8C2 /* ASTextKitContext.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F7113A95CB5292F20D610693D8E57D31 /* PINWebPAnimatedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 635F9A299ECCC8E0B7114C71C5EBD652 /* PINWebPAnimatedImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F71A56A1F4D5750C5E96ECB9A2B5D621 /* ASButtonNode+Yoga.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4C7DCD8058E3BCE855901CA51DEFE3BC /* ASButtonNode+Yoga.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		F73F2F3487A3AB1901259E92905ECC35 /* ASTextInput.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B280D9C0EEE07AA61CBE67BBD83CA94 /* ASTextInput.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7D1D7E10D44C749F74481144B5E241C /* _ASCollectionGalleryLayoutItem.h in Headers */ = {isa = PBXBuildFile; fileRef = C8BB552BEA6D81596670DEEE0C4DC9E1 /* _ASCollectionGalleryLayoutItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F7EF4C799F3A806E7FF0BA651C8DA0C2 /* NSArray+Diffing.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A62563608115CAACB0118737A76DF67 /* NSArray+Diffing.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7EF7184D41C22A77D70A2AE233D4E53 /* IGListMoveIndexInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 289A44AF1C8C91D6EFAC6F2A6D497467 /* IGListMoveIndexInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F80E446F45D88613D77DE30F46D2AB95 /* ASHashing.h in Headers */ = {isa = PBXBuildFile; fileRef = 09449743EEB28953F25E5A390CE25E00 /* ASHashing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA41F2FAFA4B2CD88810C7D9F016B721 /* PINRemoteImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25DC7BF6E2EFEAA4280E3739973340A6 /* PINRemoteImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FAEFE8876102C30DB7F93734FD0CFC29 /* ASLayoutSpecUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 13F0DC5F2147717308CB80672C57A1F7 /* ASLayoutSpecUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FB91F184F9369AAAFCE7366C3E40B916 /* PINAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1717AD2035A7181D6C10F99E67E40FB4 /* PINAnimatedImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBD845A7E602572EBAA9E7242C930699 /* ASTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = DB5115551949F5214DF203091794C077 /* ASTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FC7A61B83C7923FDFA9355367FB4CF1B /* ASTextNode2.mm in Sources */ = {isa = PBXBuildFile; fileRef = 55AC154AA1B9966890B40567D0ABCF19 /* ASTextNode2.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
-		FC8D9F6E6DE4C67A9FE8B3A8F11F729D /* PINAnimatedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FAE8C880E961BCD14BC7D8B767B07B3 /* PINAnimatedImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FC9E1CBF800DFB8FE8F0E29D1CB8EA1A /* IGListMoveIndexInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = BD90F918F2FA39D02F1FA7A238805EBF /* IGListMoveIndexInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		FCB6E6EEACAA9454AA014AD601BCFD40 /* ASTextKitShadower.mm in Sources */ = {isa = PBXBuildFile; fileRef = CA9B01D88F915C621F2E7549E2265BC6 /* ASTextKitShadower.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		FCD849AE3A8A280484EAFC6DB926CBD9 /* ASTableView.mm in Sources */ = {isa = PBXBuildFile; fileRef = A5C8F9CCBE5923F8D01A8DB16FD70C31 /* ASTableView.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
-		FD11275A5453736C01C7041041C1B130 /* PINAnimatedImageView+PINRemoteImage.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC273366F9348DCA374ED36CAD3F57B /* PINAnimatedImageView+PINRemoteImage.m */; };
+		FCE13F375C46A48FE6B0F6BAAEBB0C0F /* PINRemoteLock.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C3069650CC21AAF0676CBEEA312E388 /* PINRemoteLock.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FDCC1ABAFCAF3F88A536BFC0896B1C59 /* ASAsciiArtBoxCreator.h in Headers */ = {isa = PBXBuildFile; fileRef = C84298BB5E0FDA1BBD17415F8C107F54 /* ASAsciiArtBoxCreator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE05C5091F7E0CE3BEDA16F011059410 /* ASControlNode.mm in Sources */ = {isa = PBXBuildFile; fileRef = C36B3A46EE235D6FC65FCA0FB3967A8C /* ASControlNode.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		FE412E9A0697BACB3CD5DEA65B172E10 /* ASVideoPlayerNode.mm in Sources */ = {isa = PBXBuildFile; fileRef = D51A8E8B81F6CB2B9A189239D9421AB0 /* ASVideoPlayerNode.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions"; }; };
 		FF0205210B1FA774E769DFD6CE34B883 /* ASCollectionLayoutState.h in Headers */ = {isa = PBXBuildFile; fileRef = B55FCDC49AFA77D4C5F063A2821AE6F3 /* ASCollectionLayoutState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF0A3F28A9389086092A27202076A888 /* PINRemoteImageManagerConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 60DA6C3E3C64F4CB57B2F359377F69CC /* PINRemoteImageManagerConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF3EB79404B1F1AF27E7298F4DF62FA2 /* NSString+IGListDiffable.m in Sources */ = {isa = PBXBuildFile; fileRef = 024B88C72F8324357F3EC5FF312C7F5D /* NSString+IGListDiffable.m */; };
 /* End PBXBuildFile section */
 
@@ -642,6 +641,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = E2A8B2A28D2EAB2E4CCF3B69E6792851;
 			remoteInfo = PINRemoteImage;
+		};
+		0A9CF4F9F5DE58D200FFFF9A1BF23E28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A927C3CD51C30012080D6CA07959B246;
+			remoteInfo = PINCache;
 		};
 		0BAF9FD975B773F3F9C682A9CFC97DFD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -657,12 +663,12 @@
 			remoteGlobalIDString = 2D07A05F514BF9C5434DAC907988C708;
 			remoteInfo = IGListDiffKit;
 		};
-		2992D8B29578C02967A752A3D33B03E1 /* PBXContainerItemProxy */ = {
+		1C9585AE5F34578C73DE58C9C48C9050 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A927C3CD51C30012080D6CA07959B246;
-			remoteInfo = PINCache;
+			remoteGlobalIDString = 57310B016450E63387C9D64F4933E995;
+			remoteInfo = PINOperation;
 		};
 		3B179CCAE1375DA9F3CA7A690BD0C046 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -677,13 +683,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 674FDCAB4D51E702521F4CD31807F659;
 			remoteInfo = IGListKit;
-		};
-		9A023B4FF7DD5A069E84CCD486301E17 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 57310B016450E63387C9D64F4933E995;
-			remoteInfo = PINOperation;
 		};
 		9F2F3CAFAF132EECC38F1E3C222F1F9C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -1403,22 +1402,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1A38949BF4B503096C6F3EE1849A151C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5D5D1CF6778C0EFEF0A0378E3DB8C089 /* Accelerate.framework in Frameworks */,
-				A07A372022EF724EADE54A9E563C73C5 /* Foundation.framework in Frameworks */,
-				2A2D9741BC06256DC66C82090B40D185 /* ImageIO.framework in Frameworks */,
-				7D18768C638CA93F11A2F82E48B64C47 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		68370E3386930560C7C58C4842622D51 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				332E4B95253D6930337A0A66A26253AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BEA671801183DC6A7ABFB93D000ED27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B09D8B18B4FC7F362FDF0BEAC1F6CC /* Accelerate.framework in Frameworks */,
+				1A7539D496502C32502CACC1D2A08427 /* Foundation.framework in Frameworks */,
+				07D1A6F75DA3DBFEF38E8EFD9CDE2294 /* ImageIO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2628,53 +2626,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		47155CF8AE150135F6F39FCB3DCA18CA /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9F275DA64CC73A8CBF503779C60625B3 /* NSData+ImageDetectors.h in Headers */,
-				A007A9CCE045C77A875CC7C4AF51E9A0 /* NSHTTPURLResponse+MaxAge.h in Headers */,
-				C2395036EBABE7F014B56929F69A338A /* PINAlternateRepresentationProvider.h in Headers */,
-				FC8D9F6E6DE4C67A9FE8B3A8F11F729D /* PINAnimatedImage.h in Headers */,
-				961DE130A9E4DD57A6F25B062255283A /* PINAnimatedImageView.h in Headers */,
-				B4C40FC629F0F9603B31BA7C750046DE /* PINAnimatedImageView+PINRemoteImage.h in Headers */,
-				332E9E32EA25C369B340F2F1E9C92F45 /* PINButton+PINRemoteImage.h in Headers */,
-				D3432BB8BB34875039B8A3C271336E05 /* PINCache+PINRemoteImageCaching.h in Headers */,
-				D514FA842155B72AE180DDBBF45F49E3 /* PINCachedAnimatedImage.h in Headers */,
-				02AF397365C7CB3B1F57028188D0B68F /* PINDisplayLink.h in Headers */,
-				3AE955B7D903DB932626F94E543281A7 /* PINGIFAnimatedImage.h in Headers */,
-				A662BC683008DE9C18F0428B1E583A7C /* PINImage+DecodedImage.h in Headers */,
-				2AA41D578774DF06B8681D32063E7172 /* PINImage+ScaledImage.h in Headers */,
-				247E56FF8D9DF6549843D24F631749D1 /* PINImage+WebP.h in Headers */,
-				60F36B18D923D00F2135B9CEB72CC334 /* PINImageView+PINRemoteImage.h in Headers */,
-				53E0B4B9A8A2CD3D9B735CB70131E46E /* PINProgressiveImage.h in Headers */,
-				C0427800BE10B11608AAF6532C1652FE /* PINRemoteImage.h in Headers */,
-				6C99CB0546A67C92946A261F3FA77C4C /* PINRemoteImage-umbrella.h in Headers */,
-				0F6CBF54EF02296066EE92C08157BE57 /* PINRemoteImageBasicCache.h in Headers */,
-				898401A9D2A6DC70342A804CA5755C7D /* PINRemoteImageCaching.h in Headers */,
-				522D68C238ADD2E4BB0EDC6E7E789375 /* PINRemoteImageCallbacks.h in Headers */,
-				7786E21F8F8B8A0A4A11B660FBB1D60C /* PINRemoteImageCategoryManager.h in Headers */,
-				21FBFB72534277246F629CC90F3D7F29 /* PINRemoteImageDownloadQueue.h in Headers */,
-				C3F455D49AA09EB5CA60BE378E43F1A1 /* PINRemoteImageDownloadTask.h in Headers */,
-				4D527C08432C35A9D8400A4C214700C3 /* PINRemoteImageMacros.h in Headers */,
-				BE720438A60C4A81EC92A355EB137C22 /* PINRemoteImageManager.h in Headers */,
-				21DCBBD78D526AB9297D3707AFC77623 /* PINRemoteImageManager+Private.h in Headers */,
-				153FD8A5FA694ADEEEDEA6F6FB09AA92 /* PINRemoteImageManagerConfiguration.h in Headers */,
-				8BCD1D5EB6B812254575B2DA11A57E11 /* PINRemoteImageManagerResult.h in Headers */,
-				7517E9B14979B340E646786F61633295 /* PINRemoteImageMemoryContainer.h in Headers */,
-				C6DC0F02C5A319E940AA974391B3A9C4 /* PINRemoteImageProcessorTask.h in Headers */,
-				BD68272E87015A93284F5B0183F4C6E0 /* PINRemoteImageTask.h in Headers */,
-				F05B82F3E35CD5A5537D2464E9E6F63C /* PINRemoteImageTask+Subclassing.h in Headers */,
-				E3A179F6B09B2A4F812B6BF97005C0CF /* PINRemoteLock.h in Headers */,
-				B4898FFC7091EDAD8B9AB4AE27659FD2 /* PINRemoteWeakProxy.h in Headers */,
-				2412D4ACF526125BC89031C6BA0EDEB4 /* PINRequestRetryStrategy.h in Headers */,
-				DB7FA8C10EBCEC4481E4E5003BAEBA36 /* PINResume.h in Headers */,
-				48E59BF2D8DCCFAA3BB8DE31311B9032 /* PINSpeedRecorder.h in Headers */,
-				02FE2CF250A25007FD38EA6B9B341AF3 /* PINURLSessionManager.h in Headers */,
-				F7113A95CB5292F20D610693D8E57D31 /* PINWebPAnimatedImage.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4B2A2FC920C96CFEC5B6AECDCB8866FB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -2707,6 +2658,53 @@
 				1BB8F48D187C6855F5B9D070BE03B7F3 /* PINOperationMacros.h in Headers */,
 				18A2260658D75DC8D124A8F836FB31FB /* PINOperationQueue.h in Headers */,
 				AB2560FCF74579EC06F8126B1141F21F /* PINOperationTypes.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC518B5ABED7C4BCD1B46875E7C2D6E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4836BB9F2C4C682C5919D6F60293AEC5 /* NSData+ImageDetectors.h in Headers */,
+				6B6F1803B9F164BE9E306B457C9CF53C /* NSHTTPURLResponse+MaxAge.h in Headers */,
+				B0BEFF11D1E87E90F6136809B76F9C12 /* PINAlternateRepresentationProvider.h in Headers */,
+				B28B5D6EF847433E1E2485179ABB8F23 /* PINAnimatedImage.h in Headers */,
+				FB91F184F9369AAAFCE7366C3E40B916 /* PINAnimatedImageView.h in Headers */,
+				F4F2BAA20AAE43764491CC34890A7289 /* PINAnimatedImageView+PINRemoteImage.h in Headers */,
+				7135E10F50CC2AC0919DF5901BD9D83E /* PINButton+PINRemoteImage.h in Headers */,
+				73406671C1FA70DFE90F90651B8D65FC /* PINCache+PINRemoteImageCaching.h in Headers */,
+				E3D8DC739741DC85487232B520AF6927 /* PINCachedAnimatedImage.h in Headers */,
+				5B669388087B3678BF98DA21B087C1E3 /* PINDisplayLink.h in Headers */,
+				516FB68902AAC08D9E587D98893EBC1B /* PINGIFAnimatedImage.h in Headers */,
+				EC7F20D642C16B0E07D8D1754DBFEE38 /* PINImage+DecodedImage.h in Headers */,
+				1E706DFA1E016CEB51351C268E9ED27B /* PINImage+ScaledImage.h in Headers */,
+				11BA8C461B906A55515FD2CDAC37014D /* PINImage+WebP.h in Headers */,
+				665182898D3D032BEEB8DA7D2B7C807D /* PINImageView+PINRemoteImage.h in Headers */,
+				0C68FD9DEFB2BD3ECEC6C08581C98E7D /* PINProgressiveImage.h in Headers */,
+				4AAD719B6B38E7F5F7E278E3C9594A25 /* PINRemoteImage.h in Headers */,
+				FA41F2FAFA4B2CD88810C7D9F016B721 /* PINRemoteImage-umbrella.h in Headers */,
+				A1090A7968F0DE82AF2A2EB72D25F811 /* PINRemoteImageBasicCache.h in Headers */,
+				0894C641685DB209C592EB3921644B5F /* PINRemoteImageCaching.h in Headers */,
+				43530078B4BBC6030051C352C21913A1 /* PINRemoteImageCallbacks.h in Headers */,
+				3921215B2895156FE19865A153B565B7 /* PINRemoteImageCategoryManager.h in Headers */,
+				652FC2B00DFEC152BC2E883BAC5F8D95 /* PINRemoteImageDownloadQueue.h in Headers */,
+				B4F612315C657693262380F2AB563D54 /* PINRemoteImageDownloadTask.h in Headers */,
+				8FC16A6FED9B7726600AAAA8BCBB958C /* PINRemoteImageMacros.h in Headers */,
+				B2CA1E73CE79937047A401B78829E210 /* PINRemoteImageManager.h in Headers */,
+				4149FB805E68F20BED91015E332017E7 /* PINRemoteImageManager+Private.h in Headers */,
+				FF0A3F28A9389086092A27202076A888 /* PINRemoteImageManagerConfiguration.h in Headers */,
+				B2250A91B63937EB4983ACD56480CAC5 /* PINRemoteImageManagerResult.h in Headers */,
+				C1F3C688ABCAA4D950A700D2135105F5 /* PINRemoteImageMemoryContainer.h in Headers */,
+				2014216265718C3EE96AF8DFE86E5CDD /* PINRemoteImageProcessorTask.h in Headers */,
+				408048CB6072650D05C31757CEC015E6 /* PINRemoteImageTask.h in Headers */,
+				E2A263F1EC27FA5E9ED3BFA90618D979 /* PINRemoteImageTask+Subclassing.h in Headers */,
+				FCE13F375C46A48FE6B0F6BAAEBB0C0F /* PINRemoteLock.h in Headers */,
+				47B36526BE7710DFDEE1F7F8F31D92ED /* PINRemoteWeakProxy.h in Headers */,
+				9074D4C83D0E63B281B91B387CADF53A /* PINRequestRetryStrategy.h in Headers */,
+				B5B441CE912B6048AA48717DAE17BFB5 /* PINResume.h in Headers */,
+				6C9972A016E466E55A53168E4C9548C4 /* PINSpeedRecorder.h in Headers */,
+				7020BC510F7317943101F7F17D4D2EBE /* PINURLSessionManager.h in Headers */,
+				817763DA69031359175EE12AF72668E2 /* PINWebPAnimatedImage.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2860,18 +2858,18 @@
 		};
 		E2A8B2A28D2EAB2E4CCF3B69E6792851 /* PINRemoteImage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE1AE58B237FE442E89D8979366EF6EF /* Build configuration list for PBXNativeTarget "PINRemoteImage" */;
+			buildConfigurationList = 18F9CDEBAED8EEB1D970E88AE316A6D5 /* Build configuration list for PBXNativeTarget "PINRemoteImage" */;
 			buildPhases = (
-				47155CF8AE150135F6F39FCB3DCA18CA /* Headers */,
-				9E02A01052C1B2F3E46B62626A367EC4 /* Sources */,
-				1A38949BF4B503096C6F3EE1849A151C /* Frameworks */,
-				97D38E94263EA6C14FBC24954E3FBE44 /* Resources */,
+				EFC518B5ABED7C4BCD1B46875E7C2D6E /* Headers */,
+				6C628E9E2AFB7C71A6E881B9397F54D4 /* Sources */,
+				7BEA671801183DC6A7ABFB93D000ED27 /* Frameworks */,
+				6396AF3B5F6BAD5A78913434573F692F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E3F68BCB006BFC73F4C3517750F75A2B /* PBXTargetDependency */,
-				2BE0A1B82118A428345574F194FAAC2B /* PBXTargetDependency */,
+				58765A3C08FB8FE7101D55009BABDA80 /* PBXTargetDependency */,
+				21CB49EF73BC0C0E535664B20AD57FBE /* PBXTargetDependency */,
 			);
 			name = PINRemoteImage;
 			productName = PINRemoteImage;
@@ -2933,14 +2931,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8B08ACC7E062463EF1B86EAAE6986B51 /* Resources */ = {
+		6396AF3B5F6BAD5A78913434573F692F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		97D38E94263EA6C14FBC24954E3FBE44 /* Resources */ = {
+		8B08ACC7E062463EF1B86EAAE6986B51 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2974,53 +2972,53 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6C628E9E2AFB7C71A6E881B9397F54D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042C173285588E227A2CDC2485EBF733 /* NSData+ImageDetectors.m in Sources */,
+				EA9FAFEDF264EE53E49568C72C77485F /* NSHTTPURLResponse+MaxAge.m in Sources */,
+				DC54CB9D1030D705D6072F56CF862850 /* PINAlternateRepresentationProvider.m in Sources */,
+				2FA03925041174F71B60A35E5C715477 /* PINAnimatedImage.m in Sources */,
+				BE9AA03C4FCC473A85B75648180EAE5E /* PINAnimatedImageView.m in Sources */,
+				B302C0E166BEAD57323560BD35C72975 /* PINAnimatedImageView+PINRemoteImage.m in Sources */,
+				9FF705AC7F8B0A20CEC5CC8D397C606F /* PINButton+PINRemoteImage.m in Sources */,
+				9BA5729618F698204B81860E1BF5CBA2 /* PINCache+PINRemoteImageCaching.m in Sources */,
+				22F3B820BC99A58EB9905D47D0FF3993 /* PINCachedAnimatedImage.m in Sources */,
+				3C3CE5795AD88B20FB6A281AEA3B50EA /* PINDisplayLink.m in Sources */,
+				0CA775394E2E5F68A98DB491A8D1F96C /* PINGIFAnimatedImage.m in Sources */,
+				8BA6CDBEED374C4D81A8EA7F05074C6D /* PINImage+DecodedImage.m in Sources */,
+				D84FDD4AD4573A212BAFA750A5CA77AE /* PINImage+ScaledImage.m in Sources */,
+				963EDFDA849BE779CFBE424A59E9C68E /* PINImage+WebP.m in Sources */,
+				1529D024CDB7566421B531A6372514A6 /* PINImageView+PINRemoteImage.m in Sources */,
+				98A2615D4B3E6E6AF69D18AFAEFC45B8 /* PINProgressiveImage.m in Sources */,
+				DD0EDD9E3BD87B9E7195A0EB73750A6C /* PINRemoteImage-dummy.m in Sources */,
+				1FAEF6CFC72859D10E563AAF5B7E4285 /* PINRemoteImageBasicCache.m in Sources */,
+				0227B3115578DB20B88194E3252B4C01 /* PINRemoteImageCallbacks.m in Sources */,
+				50058A997025D8DF7F24874EF1BBB89C /* PINRemoteImageCategoryManager.m in Sources */,
+				B3621FCB5C4228A8747A47593350796B /* PINRemoteImageDownloadQueue.m in Sources */,
+				3A814D15190EF5D9F66A20C224EF0981 /* PINRemoteImageDownloadTask.m in Sources */,
+				B1CB783307BCBF500D3E9E901E7DAD15 /* PINRemoteImageManager.m in Sources */,
+				CBCC7DD47C269771E26DF5E80D68DA3E /* PINRemoteImageManagerConfiguration.m in Sources */,
+				2650F867C5A99E74C612E2438D28F120 /* PINRemoteImageManagerResult.m in Sources */,
+				6FEC63C12307F7D8031B14B0959E52FF /* PINRemoteImageMemoryContainer.m in Sources */,
+				A288C855FF82A7DEADF0C22F2BD68F0C /* PINRemoteImageProcessorTask.m in Sources */,
+				72E94942CCAA3530E1D8433310420CB6 /* PINRemoteImageTask.m in Sources */,
+				CA9418732345BB4E80DA9EECA7541605 /* PINRemoteLock.m in Sources */,
+				07ED949A49391A83AA0F736B127DBC18 /* PINRemoteWeakProxy.m in Sources */,
+				BDA5D826A230D88359030AAE818FE215 /* PINRequestRetryStrategy.m in Sources */,
+				AA3EA60043526670FECF137F7C3E5137 /* PINResume.m in Sources */,
+				48BD4B03712922AB024F0E2644B79E4A /* PINSpeedRecorder.m in Sources */,
+				2F5FE2BEE0B42707651194161839579B /* PINURLSessionManager.m in Sources */,
+				DF111547B26227A5D6E272BDB4CFD210 /* PINWebPAnimatedImage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		85AD244C4C51AE1805980A9FD2355B05 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				47927FE7846B2BD7D110C88C92F1A6AD /* Pods-Texture+IGListKit-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9E02A01052C1B2F3E46B62626A367EC4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				48895E88AD76B2412D3F22434D493793 /* NSData+ImageDetectors.m in Sources */,
-				878335E7EA91660B2635530060817420 /* NSHTTPURLResponse+MaxAge.m in Sources */,
-				00A2DDA343FC2EF112B12B4700FCC018 /* PINAlternateRepresentationProvider.m in Sources */,
-				848C25AE2839C1CA24822B2F88C88C7D /* PINAnimatedImage.m in Sources */,
-				7A5DF2C8348FEA7C2FA88C4C4846CA31 /* PINAnimatedImageView.m in Sources */,
-				FD11275A5453736C01C7041041C1B130 /* PINAnimatedImageView+PINRemoteImage.m in Sources */,
-				8B3C8E2B543C7C8A2C95E3030F46F56E /* PINButton+PINRemoteImage.m in Sources */,
-				700C49D07EF1C60F65B831675469A34F /* PINCache+PINRemoteImageCaching.m in Sources */,
-				9FCC625FA1BF0D5B9D79A1BC1AF1E5EE /* PINCachedAnimatedImage.m in Sources */,
-				BC69FE7C135AD8B0C1734F8EFBB8753A /* PINDisplayLink.m in Sources */,
-				4005C34383D0855FE274972B5AA316CA /* PINGIFAnimatedImage.m in Sources */,
-				0BB02CAD1713E4A5FA08C8E2B76D74EE /* PINImage+DecodedImage.m in Sources */,
-				9419421C195D92895615E7D3042FA346 /* PINImage+ScaledImage.m in Sources */,
-				EC1A97B1128F42E3EB5D61DC588C331D /* PINImage+WebP.m in Sources */,
-				AF541D691611212BAB6FE64FCFBFFB9B /* PINImageView+PINRemoteImage.m in Sources */,
-				290EED5469B0B0E86CB6ED9DBBD088EF /* PINProgressiveImage.m in Sources */,
-				A0A1C0043D41E08059054D40EC8CF3C0 /* PINRemoteImage-dummy.m in Sources */,
-				477132751FF7288D6257DE717ECA1CB9 /* PINRemoteImageBasicCache.m in Sources */,
-				18FB99E603EE1695A1BF2A070D8CC2D3 /* PINRemoteImageCallbacks.m in Sources */,
-				2DDF52EE2C0AFBA1492EB418F2DBA091 /* PINRemoteImageCategoryManager.m in Sources */,
-				F6B72568B2ED857DF9C7849B077C8D0A /* PINRemoteImageDownloadQueue.m in Sources */,
-				EDB61CFD723377FB377F422191F51AE0 /* PINRemoteImageDownloadTask.m in Sources */,
-				121029966E60E6711A6B2DFB8001DC7A /* PINRemoteImageManager.m in Sources */,
-				0A9322E5240F933B6A3D4592D0E9A358 /* PINRemoteImageManagerConfiguration.m in Sources */,
-				8AFDD8A355B3A978104927FAF62C892E /* PINRemoteImageManagerResult.m in Sources */,
-				35016C0448796414BA9BDCEE5E438BEB /* PINRemoteImageMemoryContainer.m in Sources */,
-				B48E75E393C43A3370546CE3D4AC19DB /* PINRemoteImageProcessorTask.m in Sources */,
-				3619D17F9FC08531B058FF52BE2CDF7A /* PINRemoteImageTask.m in Sources */,
-				7C4F8C96F497B996CB199F14F56812F4 /* PINRemoteLock.m in Sources */,
-				BC4E5F22E83829DE84ADBB48BD230DE2 /* PINRemoteWeakProxy.m in Sources */,
-				8E6B9189025695AD14E0C079E8B9423A /* PINRequestRetryStrategy.m in Sources */,
-				F40FAA1D9453D862CD749A896D64CCCC /* PINResume.m in Sources */,
-				A49B4BE001B152A29E1231A0F3CC8182 /* PINSpeedRecorder.m in Sources */,
-				370D7411A13B8A233D3E40F44E15BE5C /* PINURLSessionManager.m in Sources */,
-				F5920C6342B4141E3AE432E0422CFDD9 /* PINWebPAnimatedImage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3274,11 +3272,11 @@
 			target = E2A8B2A28D2EAB2E4CCF3B69E6792851 /* PINRemoteImage */;
 			targetProxy = BB2BD9DCAF0B825FA6B77F65FF276C49 /* PBXContainerItemProxy */;
 		};
-		2BE0A1B82118A428345574F194FAAC2B /* PBXTargetDependency */ = {
+		21CB49EF73BC0C0E535664B20AD57FBE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PINOperation;
 			target = 57310B016450E63387C9D64F4933E995 /* PINOperation */;
-			targetProxy = 9A023B4FF7DD5A069E84CCD486301E17 /* PBXContainerItemProxy */;
+			targetProxy = 1C9585AE5F34578C73DE58C9C48C9050 /* PBXContainerItemProxy */;
 		};
 		2D8FEA0FA99B2CABD26ABB1C85BF7EDD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -3310,6 +3308,12 @@
 			target = E2A8B2A28D2EAB2E4CCF3B69E6792851 /* PINRemoteImage */;
 			targetProxy = 09CDF12E21149D52D23FFB115082F34F /* PBXContainerItemProxy */;
 		};
+		58765A3C08FB8FE7101D55009BABDA80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PINCache;
+			target = A927C3CD51C30012080D6CA07959B246 /* PINCache */;
+			targetProxy = 0A9CF4F9F5DE58D200FFFF9A1BF23E28 /* PBXContainerItemProxy */;
+		};
 		5BB94108264E88CCF7A7C6DD3684E2F1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = IGListKit;
@@ -3334,12 +3338,6 @@
 			target = 57310B016450E63387C9D64F4933E995 /* PINOperation */;
 			targetProxy = 0BAF9FD975B773F3F9C682A9CFC97DFD /* PBXContainerItemProxy */;
 		};
-		E3F68BCB006BFC73F4C3517750F75A2B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PINCache;
-			target = A927C3CD51C30012080D6CA07959B246 /* PINCache */;
-			targetProxy = 2992D8B29578C02967A752A3D33B03E1 /* PBXContainerItemProxy */;
-		};
 		EB3E169DD2D5B8B757B3785FAC177F49 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PINOperation;
@@ -3349,40 +3347,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0359AD9883667ABAE66B0D6E0ECBE22D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A571187D0613096C9EA58D70FE5136A /* PINRemoteImage.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/PINRemoteImage/PINRemoteImage-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/PINRemoteImage/PINRemoteImage.modulemap";
-				PRODUCT_MODULE_NAME = PINRemoteImage;
-				PRODUCT_NAME = PINRemoteImage;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		1B1FC92834E84FFF3F5F89754187D9C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C5E8FA16F82846A56ACD6C9552975759 /* IGListKit.release.xcconfig */;
@@ -3485,6 +3449,40 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		3465E8702EBF1AC9CA710D3893DA9CFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A571187D0613096C9EA58D70FE5136A /* PINRemoteImage.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/PINRemoteImage/PINRemoteImage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PINRemoteImage/PINRemoteImage.modulemap";
+				PRODUCT_MODULE_NAME = PINRemoteImage;
+				PRODUCT_NAME = PINRemoteImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		3F51FA8DF1F7B83F02FE8CB464E8CC76 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -3592,6 +3590,39 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		5FA181A2D6ADCCD3C7F24E9E8F7E115D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9313DC47FD7C483FA787E0D52F2842F0 /* PINRemoteImage.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/PINRemoteImage/PINRemoteImage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PINRemoteImage/PINRemoteImage.modulemap";
+				PRODUCT_MODULE_NAME = PINRemoteImage;
+				PRODUCT_NAME = PINRemoteImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -3896,39 +3927,6 @@
 			};
 			name = Debug;
 		};
-		F5A383BB970E100B84A0514184975BE2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9313DC47FD7C483FA787E0D52F2842F0 /* PINRemoteImage.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/PINRemoteImage/PINRemoteImage-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/PINRemoteImage/PINRemoteImage.modulemap";
-				PRODUCT_MODULE_NAME = PINRemoteImage;
-				PRODUCT_NAME = PINRemoteImage;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		F5B593C0630BE6AA24F52168CD99B26A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F0E27CFE096D80E21C2BFD5BBF1E8BE1 /* Texture.release.xcconfig */;
@@ -3985,6 +3983,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		18F9CDEBAED8EEB1D970E88AE316A6D5 /* Build configuration list for PBXNativeTarget "PINRemoteImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FA181A2D6ADCCD3C7F24E9E8F7E115D /* Debug */,
+				3465E8702EBF1AC9CA710D3893DA9CFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -4017,15 +4024,6 @@
 			buildConfigurations = (
 				98F93839E9303B46E9403255F98CEC3F /* Debug */,
 				5CECE840BDD03128E0C978A9578BAD27 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AE1AE58B237FE442E89D8979366EF6EF /* Build configuration list for PBXNativeTarget "PINRemoteImage" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F5A383BB970E100B84A0514184975BE2 /* Debug */,
-				0359AD9883667ABAE66B0D6E0ECBE22D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
