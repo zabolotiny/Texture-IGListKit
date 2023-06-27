@@ -1,0 +1,98 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "a1712228e451297e53b14b771f9933dfb36aef88",
+  "iOS" : [
+    {
+      "hash" : "223c726620232134757e940c843a5fde48cd3f27ae9527e354959651c85fc042",
+      "name" : "AsyncDisplayKit",
+      "container" : "AsyncDisplayKit.xcframework",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "hash" : "0bf119a17c500213708e30975ac8d07294b213791db5c63c4ffb8298a3a79216",
+      "name" : "AsyncDisplayKit",
+      "container" : "AsyncDisplayKit.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    },
+    {
+      "hash" : "92227f189748e61895ee120de42963dafff320fd9df8bb42ba33f02137ce04c5",
+      "name" : "IGListDiffKit",
+      "container" : "IGListDiffKit.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    },
+    {
+      "hash" : "d9f13047e0a6caee57006abd0939ca9891fea44d9c6ad5c023adbefdc928bfca",
+      "name" : "IGListDiffKit",
+      "container" : "IGListDiffKit.xcframework",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "hash" : "4e17adde94a855ad1b02f02976cea98e1a30e294ca49a1c1683c2ad0b36a55f9",
+      "name" : "IGListKit",
+      "container" : "IGListKit.xcframework",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "hash" : "3362158cd09976e1d122930b1ed684ed4c31376609534ebfc3516ba7b218d97e",
+      "name" : "IGListKit",
+      "container" : "IGListKit.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    },
+    {
+      "hash" : "9fe50f797751c063c9fe2b1eaf8157acf32bb4621f1eea7a47adaa68c9723dbb",
+      "name" : "PINCache",
+      "container" : "PINCache.xcframework",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "hash" : "ecc02190e009a42eb51f124e7ce4b35c07a678f067e0120d1304cb65261c3740",
+      "name" : "PINCache",
+      "container" : "PINCache.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    },
+    {
+      "hash" : "d916fb953d22ef41724f7287e92b15d0ea1fb896388ad7f122f3079c97e8aa7e",
+      "name" : "PINOperation",
+      "container" : "PINOperation.xcframework",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "hash" : "076dd380e510841554855a659ccfaf6a900cee1764798918ab7fb49eb4c4e5a7",
+      "name" : "PINOperation",
+      "container" : "PINOperation.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    },
+    {
+      "hash" : "072f5fcd2d26082a063016e133b0083cdf98d55c7fc9243835a9392179014a23",
+      "name" : "PINRemoteImage",
+      "container" : "PINRemoteImage.xcframework",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "hash" : "c6d781d744289dcc3a006502750cd168da8640f04b8deba7fd756fbb7c6b6df9",
+      "name" : "PINRemoteImage",
+      "container" : "PINRemoteImage.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    },
+    {
+      "hash" : "a8811be9a01e5a6752bbb10578f8d529636cebc7174459f2b1114d5191cd0a3c",
+      "name" : "Texture_IGListKit",
+      "container" : "Texture_IGListKit.xcframework",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "hash" : "55afe7637f4cafa7959f8c91c128d06dcf912440cb54027c4d94b76c1ee81617",
+      "name" : "Texture_IGListKit",
+      "container" : "Texture_IGListKit.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    }
+  ]
+}
