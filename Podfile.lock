@@ -43,7 +43,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   Texture:
-    :commit: 6b2ab3aa18c440fbada237cba316703f21d7800b
+    :commit: acc6676618739b8439955104e2e8166e4472e7ed
     :git: https://github.com/Zabolotiny/Texture.git
 
 SPEC CHECKSUMS:

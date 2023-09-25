@@ -106,6 +106,9 @@ UIImage *ASGraphicsCreateImage(ASPrimitiveTraitCollection traitCollection, CGSiz
       // last moment i.e. before actually creating the resulting image.
       __block UIImage *image;
       NSError *error;
+      if (size.width <= 0 || size.height <= 0 || CGSizeEqualToSize(CGSizeZero, size)) {
+        return nil;
+      }
       [[[UIGraphicsImageRenderer alloc] initWithSize:size format:format]
           runDrawingActions:^(UIGraphicsImageRendererContext *rendererContext) {
             ASDisplayNodeCAssert(UIGraphicsGetCurrentContext(), @"Should have a context!");
